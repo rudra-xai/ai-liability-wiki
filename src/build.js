@@ -4,6 +4,7 @@ const path = require('path');
 const { render, parseDoc, esc, slugify, inline } = require('./md');
 const U = require('./util');
 const { layout } = require('./layout');
+const exporter = require('./export');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'dist');
@@ -195,7 +196,7 @@ function buildHome() {
     ${story(lead, { lead: true })}
     <div class="chips">${regions.map((r) => `<a class="chip" href="#news-${slugify(r)}">${esc(r.toLowerCase())}</a>`).join('')}</div>
     ${regions.map((r) => `<section class="region" id="news-${slugify(r)}"><h2 class="label">${esc(r)}</h2><div class="story-grid">${groups[r].map((n) => story(n)).join('')}</div></section>`).join('')}
-    <p class="archive-links"><a href="${base}news/${month}/">all news for ${U.monthLabel(month).toLowerCase()} →</a> · <a href="${base}news/">browse news by year →</a></p>
+    <p class="archive-links"><a href="${base}news/${month}/">all news for ${U.monthLabel(month).toLowerCase()} →</a> · <a href="${base}news/">browse news by year →</a> · <a href="${base}news/database/">news database &amp; excel →</a></p>
   </div>
   <aside class="home-side">
     ${opinionsCard(opinions.slice(0, 5))}
@@ -239,10 +240,65 @@ function buildNews() {
   page('news/', {
     title: 'News',
     body: `<div class="article"><h1 class="page-title">News</h1>${disclosure}
-  <p class="lede">Daily coverage of AI liability, insurance and regulation, grouped by the month a story was first covered. Follow via <a href="${base}feed.xml">RSS</a>.</p>
+  <p class="lede">Daily coverage of AI liability, insurance and regulation, grouped by the month a story was first covered. Follow via <a href="${base}feed.xml">RSS</a>, or open the <a href="${base}news/database/">news database</a> to search every story and download it as Excel.</p>
   ${Object.keys(years).sort().reverse().map((y) => `<h2>${y}</h2><ul class="month-list">${years[y].map((k) => `<li><a href="${base}news/${k}/">${U.monthLabel(k)}</a> <span class="dim">${months[k].length} stories</span></li>`).join('')}</ul>`).join('')}
   <h2>Latest stories</h2>${news.slice(0, 12).map((n) => story(n)).join('')}
 </div>`,
+  });
+}
+
+
+// ---------- News database (table + Excel/CSV exports) ----------
+function buildDatabase() {
+  const siteUrl = site.siteUrl.replace(/\/$/, '');
+  const storyPath = (n) => `news/${U.monthKey(U.localDay(n.published, site.timezone))}/#story-${n.id}`;
+  const rows = news.map((n) => {
+    const day = U.localDay(n.published, site.timezone);
+    const rel = (n.related || []).map((s) => resolve(s)).filter(Boolean);
+    return [day, U.clock(n.published, site.timezone), n.title, n.summary, n.lens || '',
+      (n.jurisdictions || []).join('; '), U.regionOf((n.jurisdictions || ['International'])[0]), (n.tags || []).join('; '),
+      (n.sources || []).map((s) => s.name).join('; '), (n.sources || []).map((s) => s.url).join(' '),
+      rel.map((p) => p.title).join('; '), `${siteUrl}/${storyPath(n)}`, n.id];
+  });
+  write('downloads/ai-liability-news.csv', exporter.csv(rows));
+  write('downloads/ai-liability-news.json', JSON.stringify(news, null, 2));
+  fs.writeFileSync(path.join(OUT, 'downloads/ai-liability-news.xlsx'), exporter.xlsx(rows, { title: 'AI liability news' }));
+  const regions = [...new Set(rows.map((r) => r[6]))].sort();
+  const tags = [...new Set(news.flatMap((n) => n.tags || []))].sort();
+  const csvUrl = `${siteUrl}/downloads/ai-liability-news.csv`;
+  const tr = (n, i) => {
+    const r = rows[i];
+    const text = (n.title + ' ' + n.summary + ' ' + (n.lens || '') + ' ' + r[8] + ' ' + r[5] + ' ' + r[7]).toLowerCase();
+    return `<tr data-region="${esc(r[6])}" data-tags="${esc((n.tags || []).join('|'))}" data-text="${esc(text)}">
+    <td data-sort="${esc(n.published)}">${U.apDate(r[0])}, ${r[0].slice(0, 4)}</td>
+    <td><a href="${base}${storyPath(n)}">${esc(n.title)}</a>${n.lens ? ' <span class="tag db-lens" title="Includes a coverage lens">lens</span>' : ''}</td>
+    <td>${(n.jurisdictions || []).map((j) => `${U.flag(j)} ${esc(j)}`).join('<br>')}</td>
+    <td>${(n.tags || []).map(esc).join(', ')}</td>
+    <td>${(n.sources || []).map((s) => `<a class="external" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('<br>')}</td></tr>`;
+  };
+  page('news/database/', {
+    title: 'News database',
+    description: 'Every AI liability story tracked by the wiki, searchable and downloadable as Excel or CSV.',
+    body: `<div class="article db-page"><div class="cat-chip">Database</div><h1 class="page-title">AI liability news database</h1>${disclosure}
+  <p class="lede">Every story the wiki has covered: <b>${news.length}</b> entries from ${U.longDate(rows[rows.length - 1][0])} to ${U.longDate(rows[0][0])}. New stories are added automatically each morning. Filter below, or download the whole database.</p>
+  <div class="db-actions">
+    <a class="btn" href="${base}downloads/ai-liability-news.xlsx" download>Download Excel (.xlsx)</a>
+    <a class="btn-ghost" href="${base}downloads/ai-liability-news.csv" download>Download CSV</a>
+    <a class="btn-ghost" href="${base}downloads/ai-liability-news.json">JSON</a>
+  </div>
+  <details class="db-live"><summary>Keep a live, auto-updating copy in Google Sheets or Excel</summary>
+    <p><b>Google Sheets:</b> in cell A1 of a new sheet, enter <code>=IMPORTDATA("${csvUrl}")</code>. It refreshes itself and can be shared like any Google Sheet.</p>
+    <p><b>Excel:</b> choose <i>Data → From Web</i>, paste <code>${csvUrl}</code>, then <i>Load</i>. Use <i>Data → Refresh All</i> to pull in the latest stories.</p>
+  </details>
+  <div class="db-filters">
+    <input type="search" id="db-q" placeholder="Search headlines, summaries, sources…" aria-label="Search the database">
+    <select id="db-region" aria-label="Region"><option value="">All regions</option>${regions.map((r) => `<option>${esc(r)}</option>`).join('')}</select>
+    <select id="db-tag" aria-label="Tag"><option value="">All tags</option>${tags.map((t) => `<option>${esc(t)}</option>`).join('')}</select>
+    <span class="dim" id="db-count"></span>
+  </div>
+  <div class="table-wrap"><table class="wikitable sortable db-table"><thead><tr><th>Date</th><th>Headline</th><th>Jurisdiction</th><th>Tags</th><th>Sources</th></tr></thead><tbody>
+  ${news.map(tr).join('')}
+  </tbody></table></div></div>`,
   });
 }
 
@@ -368,6 +424,7 @@ ${news.slice(0, 50).map((n) => `<item><title>${x(n.title)}</title><link>${siteUr
 fs.rmSync(OUT, { recursive: true, force: true });
 buildHome();
 buildNews();
+buildDatabase();
 buildLists();
 buildArticles();
 buildSpecial();

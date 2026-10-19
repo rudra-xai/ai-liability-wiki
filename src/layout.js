@@ -13,7 +13,7 @@ const icon = {
 
 function nav(base) {
   const group = (title, items) => `<div class="nav-group"><div class="nav-title">${title}</div><ul>${items.map(([t, u]) => `<li><a href="${base}${u}">${t}</a></li>`).join('')}</ul></div>`;
-  return group('Navigation', [['Main page', ''], ['News', 'news/'], ['Opinions', 'opinions/'], ['Upcoming events', 'events/'], ['Featured videos', 'videos/']])
+  return group('Navigation', [['Main page', ''], ['News', 'news/'], ['News database (Excel)', 'news/database/'], ['Opinions', 'opinions/'], ['Upcoming events', 'events/'], ['Featured videos', 'videos/']])
     + group('Reference library', [['Insurance', 'insurance/'], ['Cases', 'cases/'], ['Legislation &amp; regulation', 'legislation/'], ['Governance', 'governance/'], ['Policy', 'policy/'], ['People', 'people/'], ['Organizations', 'organizations/'], ['AI systems', 'ai-systems/'], ['AI liability by topic', 'topics/']])
     + group('Tools', [['Recent changes', 'special/recent-changes/'], ['Random page', 'special/random/'], ['All pages', 'special/all-pages/'], ['Search', 'search/'], ['RSS feed', 'feed.xml']])
     + group('About', [['About this wiki', 'about/'], ['Terms of use', 'terms/'], ['Privacy policy', 'privacy/'], ['Disclaimer', 'disclaimer/']]);
@@ -62,6 +62,7 @@ function layout(site, { title, description, body, path = '', bodyClass = '', ful
           <a href="${base}special/recent-changes/">Recent changes</a>
           <a href="${base}special/random/">Random page</a>
           <a href="${base}special/all-pages/">All pages</a>
+          <a href="${base}news/database/">News database (Excel)</a>
           <a href="${base}feed.xml">RSS feed</a>
           <a href="${esc(site.publisherUrl)}" target="_blank" rel="noopener">${esc(site.publisher)} ↗</a>
         </div>

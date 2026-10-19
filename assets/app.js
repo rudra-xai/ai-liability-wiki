@@ -132,6 +132,27 @@
     }, (S.refreshMinutes || 5) * 60e3);
   }
 
+  // ---- News database filters ----
+  const dbQ = $('#db-q');
+  if (dbQ) {
+    const region = $('#db-region'), tag = $('#db-tag'), count = $('#db-count'), rows = $('.db-table tbody tr');
+    const params = new URLSearchParams(location.search);
+    dbQ.value = params.get('q') || ''; region.value = params.get('region') || ''; tag.value = params.get('tag') || '';
+    const apply = () => {
+      const terms = dbQ.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let shown = 0;
+      rows.forEach((r) => {
+        const ok = terms.every((t) => r.dataset.text.includes(t))
+          && (!region.value || r.dataset.region === region.value)
+          && (!tag.value || r.dataset.tags.split('|').includes(tag.value));
+        r.hidden = !ok; if (ok) shown++;
+      });
+      count.textContent = `${shown} of ${rows.length} stories`;
+    };
+    [dbQ, region, tag].forEach((el) => el.addEventListener('input', apply));
+    apply();
+  }
+
   // ---- TOC scroll-spy ----
   const tocLinks = $$('.toc a');
   if (tocLinks.length && 'IntersectionObserver' in window) {

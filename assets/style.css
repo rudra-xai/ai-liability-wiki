@@ -287,3 +287,18 @@ sup.ref { font: 600 10px var(--mono); line-height: 0; }
 @media print {
   .topbar, .drawer, .site-footer, .home-side, .toc { display: none !important; }
 }
+
+/* News database */
+.db-page { max-width: var(--wrap); }
+.db-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 4px 0 16px; }
+.db-actions .btn-ghost { padding: 10px 12px; }
+.db-live { border: 1px solid var(--line); background: var(--surface); padding: 10px 14px; margin-bottom: 18px; font-size: 14px; color: var(--text-2); }
+.db-live summary { cursor: pointer; font: 600 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--accent); }
+.db-live p { margin: 10px 0 0; }
+.db-live code { word-break: break-all; }
+.db-filters { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.db-filters input, .db-filters select { background: var(--raised); border: 1px solid var(--line-strong); color: var(--text); padding: 9px 10px; font: 14px var(--sans); }
+.db-filters input { flex: 1 1 260px; min-width: 0; }
+.db-table td:first-child { white-space: nowrap; }
+.db-table td a { font-weight: 600; }
+.db-lens { margin-left: 4px; font-size: 9px; padding: 1px 4px; }

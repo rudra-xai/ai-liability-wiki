@@ -22,6 +22,7 @@ node src/serve.js      # previews at http://localhost:5180
 | Reference library: insurance, cases, legislation, governance, policy, people, organizations, AI systems, topics | hub pages in `content/pages/` |
 | Wiki articles with infobox, numbered sections, contents sidebar, footnote citations, "In the news" | Markdown in `content/` |
 | Monthly news archives, news by year, RSS feed, sitemap | `buildNews`, `buildSpecial` |
+| News database: searchable table plus Excel (.xlsx), CSV and JSON downloads of every story | `buildDatabase`, `src/export.js` |
 | Search (instant overlay, `/` or Ctrl+K, and a results page), random page, all pages, recent changes | `assets/app.js`, `buildSpecial` |
 | Light, dark and system themes | header switch |
 | Main page checks for new builds and offers a refresh | `latest.json` |

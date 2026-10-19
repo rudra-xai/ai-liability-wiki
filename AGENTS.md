@@ -55,3 +55,7 @@ The build fails on duplicate slugs and invalid JSON. Then search `dist/` for `cl
 - Every page is labeled AI-generated. Accuracy matters more than coverage: if something cannot be verified, leave it out.
 - Neutral tone. No legal or insurance advice. Never describe a specific insurer's policy terms unless they are public.
 - Profiles of people cover public professional work only.
+
+## News database
+
+Every story in `content/news.json` is also exported at build time to the [news database](https://rudra-xai.github.io/ai-liability-wiki/news/database/) page and to `downloads/ai-liability-news.xlsx`, `.csv` and `.json`. Never delete old stories: the file is the permanent record. Always fill `jurisdictions` and `tags`, because they are filter columns.
