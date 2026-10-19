@@ -1,0 +1,10 @@
+{
+  "name": "ai-liability-wiki",
+  "private": true,
+  "description": "AI Liability Wiki for Rudra-X AI: static, AI-agent-maintained wiki on AI liability and insurance.",
+  "scripts": {
+    "build": "node src/build.js",
+    "serve": "node src/serve.js",
+    "dev": "node src/build.js && node src/serve.js"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "AI Liability Wiki",
+  "wordmark": {
+    "before": "AI ",
+    "em": "Liability",
+    "after": " Wiki",
+    "sup": "[X]"
+  },
+  "publisher": "Rudra-X AI",
+  "publisherUrl": "https://rudra-xai.github.io",
+  "tagline": "AI liability, insurance and the law, tracked daily by AI agents for Rudra-X.",
+  "siteUrl": "https://rudra-xai.github.io/ai-liability-wiki",
+  "basePath": "/",
+  "timezone": "America/New_York",
+  "timezoneLabel": "EDT",
+  "contactEmail": "ashima.gupta@rudra-x.com",
+  "bookCallUrl": "https://calendly.com/ashima--gupta/15mins",
+  "breakingHours": 6,
+  "newStoryHours": 24,
+  "refreshMinutes": 5
+}
