@@ -1,14 +1,51 @@
 [
   {
+    "id": "2026-10-22-insurance-ai-exclusions-marsh",
+    "published": "2026-10-22T08:20:00-04:00",
+    "title": "Korean outlet: insurers struggle to price AI liability as exclusions spread",
+    "summary": "DigitalToday, summarising reporting by the Wall Street Journal and Financial Times, says insurers have not built liability products as fast as AI use has grown, with chatbot-harm and training-data copyright suits already numerous. It attributes to Marsh the view that AI exclusions are a 'retreat' that adds uncertainty and disputes, and says ISO's optional generative-AI exclusion is under review for extension to agentic AI. The piece also cites Munich Re AI-error cover with limits of up to $50 million and an Aon review of about 300 AI-related lawsuits. These are second-hand characterisations by one outlet, not statements published here by the insurers.",
+    "lens": "Exclusion wording and the limited capacity for dedicated AI cover shape where AI losses land between general liability, cyber, E&O and bespoke AI policies.",
+    "jurisdictions": [
+      "South Korea",
+      "United States"
+    ],
+    "tags": [
+      "exclusions",
+      "coverage"
+    ],
+    "sources": [
+      {
+        "name": "DigitalToday",
+        "url": "https://www.digitaltoday.co.kr/en/view/117045/no-insurance-fit-for-ai-firms-as-mega-lawsuit-risk-grows"
+      }
+    ],
+    "related": [
+      "ai-exclusions-and-policy-wording",
+      "affirmative-ai-insurance-market"
+    ]
+  },
+  {
     "id": "2026-10-19-ai-agents-breach-100-companies",
     "published": "2026-10-19T12:38:00-04:00",
     "title": "AI agents used to breach websites of more than 100 companies, Reuters reports",
     "summary": "Reuters reports that a single hacker used AI agents to break into websites belonging to more than 100 companies, including Deere, SharkNinja and Cummins. Researcher Snorre Fagerland put the attacker's AI-token spend at roughly $5,000. Reuters reviewed the activity but could not establish how much data was taken. Deere said it had no sign that sensitive information was accessed; SharkNinja said the affected support site was contained; Cummins said it was investigating a possible attack on a vendor-run site.",
     "lens": "Agent-driven attacks lower the cost of mass intrusion, which matters for cyber aggregation modelling and for how vendor-operated sites are treated under contingent business-interruption and third-party data-breach coverage.",
-    "jurisdictions": ["United States"],
-    "tags": ["cyber", "agents"],
-    "sources": [{ "name": "Reuters / WHBL", "url": "https://whbl.com/2026/10/19/exclusive-how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites/" }],
-    "related": ["ai-agents-and-liability"]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "cyber",
+      "agents"
+    ],
+    "sources": [
+      {
+        "name": "Reuters / WHBL",
+        "url": "https://whbl.com/2026/10/19/exclusive-how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites/"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
   },
   {
     "id": "2026-10-19-meta-muse-address-disclosure",
@@ -16,56 +53,119 @@
     "title": "AI-agent address disclosure highlights privacy and permission risks",
     "summary": "AP reports that Meta's Muse agent shared a Toronto user's home address with a prospective buyer after the user had granted it broad permissions; the buyer then arrived without the user's knowledge. Meta separately acknowledged an error in the sale price the agent proposed. The report illustrates how delegated access can expose users' and correspondents' information; it does not establish a regulatory violation.",
     "lens": "Delegated-authority errors like this sit between privacy liability and technology E&O; who bears the loss may turn on the agent's terms of service and on whether the user's grant of permissions was informed.",
-    "jurisdictions": ["United States", "Canada"],
-    "tags": ["agents", "privacy"],
-    "sources": [{ "name": "Associated Press", "url": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9" }],
-    "related": ["ai-agents-and-liability"]
+    "jurisdictions": [
+      "United States",
+      "Canada"
+    ],
+    "tags": [
+      "agents",
+      "privacy"
+    ],
+    "sources": [
+      {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
   },
   {
     "id": "2026-10-19-blackburn-elvis-act",
     "published": "2026-10-19T10:25:00-04:00",
     "title": "Blackburn AI campaign video prompts ELVIS Act questions",
     "summary": "WKRN reports that Sen. Marsha Blackburn's October 13 AI-generated campaign video, which used Kendrick Lamar's music and choreography, led an entertainment lawyer to ask whether Tennessee's ELVIS Act could apply. The lawyer said permission or clearance would be decisive. Neither Blackburn's office nor Lamar's team had responded to the outlet, and no court has found the use unlawful.",
-    "jurisdictions": ["United States"],
-    "tags": ["likeness", "media"],
-    "sources": [{ "name": "WKRN / News 2", "url": "https://www.wkrn.com/news/tennessee-news/sen-marsha-blackburn-ai-video-raising-legal-question/" }],
-    "related": ["tennessee-elvis-act"]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "likeness",
+      "media"
+    ],
+    "sources": [
+      {
+        "name": "WKRN / News 2",
+        "url": "https://www.wkrn.com/news/tennessee-news/sen-marsha-blackburn-ai-video-raising-legal-question/"
+      }
+    ],
+    "related": [
+      "tennessee-elvis-act"
+    ]
   },
   {
     "id": "2026-10-19-teen-nudify-apps",
     "published": "2026-10-19T09:40:00-04:00",
     "title": "Study finds teen accounts could download nudification apps despite parental controls",
     "summary": "The Guardian reports that Tech Transparency Project researchers, using accounts registered as 13-year-olds, downloaded 135 apps with nudification or face-swapping features, some of which stayed reachable with parental controls on because of their age ratings. Google said it suspended violating apps and restricted search terms; Apple said it had acted and disputed whether some listed apps had those capabilities. The findings are the advocacy group's assessment, not a regulator's.",
-    "jurisdictions": ["United States"],
-    "tags": ["children", "platforms"],
-    "sources": [{ "name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "children",
+      "platforms"
+    ],
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/19/us-teens-nudify-apps-apple-google-parental-controls"
+      }
+    ]
   },
   {
     "id": "2026-10-19-anthropic-public-benefit-fund",
     "published": "2026-10-19T09:05:00-04:00",
     "title": "Anthropic proposes allocating shares to a public-benefit fund",
     "summary": "The Guardian reports that Anthropic plans to commit 5% of its shares to a public-benefit fund, subject to shareholder approval, with further allocations tied to specified increases in the company's value. The fund could support nonprofits or make direct distributions to affected groups, including workers. It is a proposed corporate commitment, not a completed distribution or a government compensation scheme.",
-    "jurisdictions": ["United States"],
-    "tags": ["governance"],
-    "sources": [{ "name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/19/ai-firm-anthropic-to-commit-shares-to-fund-for-public-good"
+      }
+    ]
   },
   {
     "id": "2026-10-19-dhs-deepseek-notice",
     "published": "2026-10-19T08:30:00-04:00",
     "title": "DHS files public notice of July DeepSeek exclusion order",
     "summary": "An October 19 Public Inspection filing reproduces a July 24 DHS order excluding DeepSeek and affiliated products from federal civilian agency procurement and requiring their removal from covered agency systems, including third-party DeepSeek implementations. The order took effect on issuance and allows written exception requests. Federal Register publication is scheduled for October 20.",
-    "jurisdictions": ["United States"],
-    "tags": ["procurement", "federal"],
-    "sources": [{ "name": "DHS / Federal Register Public Inspection", "url": "https://public-inspection.federalregister.gov/2026-21447.pdf" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "procurement",
+      "federal"
+    ],
+    "sources": [
+      {
+        "name": "DHS / Federal Register Public Inspection",
+        "url": "https://public-inspection.federalregister.gov/2026-21447.pdf"
+      }
+    ]
   },
   {
     "id": "2026-10-19-australia-music-publishers",
     "published": "2026-10-19T07:15:00-04:00",
     "title": "Music publishers oppose Australian AI copyright concessions",
     "summary": "The Guardian reports that the International Confederation of Music Publishers is urging Australia to resist copyright concessions sought by AI companies, saying Australian artists' music has already been used for training without payment. The intervention follows a parliamentary committee leadership letter recommending a review of copyright settings that preserves creators' control and remuneration. These are competing policy positions, not a change in the law.",
-    "jurisdictions": ["Australia"],
-    "tags": ["copyright"],
-    "sources": [{ "name": "The Guardian", "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns" }]
+    "jurisdictions": [
+      "Australia"
+    ],
+    "tags": [
+      "copyright"
+    ],
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns"
+      }
+    ]
   },
   {
     "id": "2026-10-19-australia-workplace-privacy",
@@ -73,9 +173,19 @@
     "title": "Australian researchers call for stronger workplace privacy protections",
     "summary": "The Guardian reports that the University of Technology Sydney's Human Technology Institute wants Australia to strengthen workplace privacy protections as employers adopt AI-enabled monitoring. Its proposals include a fairness test for surveillance, powers to ban products posing unacceptable risks and a dedicated Fair Work Commission complaints scheme. These are reform recommendations, not enacted requirements.",
     "lens": "If adopted, a statutory complaints route for AI surveillance would create a new exposure for employment practices liability (EPL) policies in Australia.",
-    "jurisdictions": ["Australia"],
-    "tags": ["employment", "privacy"],
-    "sources": [{ "name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff" }]
+    "jurisdictions": [
+      "Australia"
+    ],
+    "tags": [
+      "employment",
+      "privacy"
+    ],
+    "sources": [
+      {
+        "name": "The Guardian",
+        "url": "https://www.theguardian.com/technology/2026/oct/20/workplace-privacy-concerns-employers-use-ai-to-monitor-staff"
+      }
+    ]
   },
   {
     "id": "2026-10-18-garcia-settlement-final",
@@ -83,36 +193,75 @@
     "title": "Garcia's Character.AI wrongful-death settlement finalized",
     "summary": "On October 15, Megan Garcia and Sewell Setzer Jr. filed notice voluntarily dismissing their wrongful-death action with prejudice against Character Technologies, its two founders and Google. The notice says the settlement agreement was executed and required court approvals obtained. WKMG reports the parties agreed to settle in January; the terms remain undisclosed.",
     "lens": "The first closely watched AI-companion death case ends without a merits ruling, leaving the May 2025 decision treating the app as a 'product' as the main pleading-stage precedent product-liability underwriters will watch.",
-    "jurisdictions": ["United States"],
-    "tags": ["product liability", "chatbots"],
-    "sources": [
-      { "name": "Plaintiffs' dismissal notice", "url": "https://www.courtlistener.com/docket/69300919/278/garcia-v-character-technologies-inc/" },
-      { "name": "WKMG / ClickOrlando", "url": "https://www.clickorlando.com/news/local/2026/10/16/orlando-mother-settles-lawsuit-with-ai-company-over-14-year-old-sons-suicide/" }
+    "jurisdictions": [
+      "United States"
     ],
-    "related": ["garcia-v-character-technologies"]
+    "tags": [
+      "product liability",
+      "chatbots"
+    ],
+    "sources": [
+      {
+        "name": "Plaintiffs' dismissal notice",
+        "url": "https://www.courtlistener.com/docket/69300919/278/garcia-v-character-technologies-inc/"
+      },
+      {
+        "name": "WKMG / ClickOrlando",
+        "url": "https://www.clickorlando.com/news/local/2026/10/16/orlando-mother-settles-lawsuit-with-ai-company-over-14-year-old-sons-suicide/"
+      }
+    ],
+    "related": [
+      "garcia-v-character-technologies"
+    ]
   },
   {
     "id": "2026-10-18-openai-private-suits",
     "published": "2026-10-18T13:05:00-04:00",
     "title": "Private lawsuits target OpenAI over alleged harms and children's data",
     "summary": "Tech Policy Press reports that four California lawsuits filed October 14 allege ChatGPT caused serious personal harm, and that a separate proposed federal class action filed October 13 challenges OpenAI's collection and use of children's information and seeks restitution. These are allegations and requests for relief, not court findings.",
-    "jurisdictions": ["United States"],
-    "tags": ["product liability", "chatbots", "privacy"],
-    "sources": [{ "name": "Tech Policy Press", "url": "https://techpolicy.press/another-week-of-lawsuits-piling-up-at-openai" }],
-    "related": ["chatbot-product-liability"]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "product liability",
+      "chatbots",
+      "privacy"
+    ],
+    "sources": [
+      {
+        "name": "Tech Policy Press",
+        "url": "https://techpolicy.press/another-week-of-lawsuits-piling-up-at-openai"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
   },
   {
     "id": "2026-10-18-perplexity-amazon-motion",
     "published": "2026-10-18T11:45:00-04:00",
     "title": "Perplexity challenges Amazon's amended AI-shopping lawsuit",
     "summary": "The Fashion Law reports that Perplexity's October 13 motion asks the court to dismiss Amazon's amended computer-access and contract-interference claims over the Comet shopping assistant. Perplexity disputes that it wrongfully induced customers to breach their agreements with Amazon. The motion does not resolve the claims.",
-    "jurisdictions": ["United States"],
-    "tags": ["agents", "computer fraud"],
-    "sources": [
-      { "name": "The Fashion Law", "url": "https://www.thefashionlaw.com/amazons-ai-shopping-battle-puts-website-terms-to-the-test/" },
-      { "name": "Filed motion", "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.459191/gov.uscourts.cand.459191.129.0.pdf" }
+    "jurisdictions": [
+      "United States"
     ],
-    "related": ["amazon-v-perplexity"]
+    "tags": [
+      "agents",
+      "computer fraud"
+    ],
+    "sources": [
+      {
+        "name": "The Fashion Law",
+        "url": "https://www.thefashionlaw.com/amazons-ai-shopping-battle-puts-website-terms-to-the-test/"
+      },
+      {
+        "name": "Filed motion",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.459191/gov.uscourts.cand.459191.129.0.pdf"
+      }
+    ],
+    "related": [
+      "amazon-v-perplexity"
+    ]
   },
   {
     "id": "2026-10-18-ai-wearables-consent",
@@ -120,9 +269,19 @@
     "title": "Always-listening AI wearables raise unsettled consent questions",
     "summary": "CNBC reports that AI wearables that interpret conversations without keeping audio raise open questions under state interception laws. Lawyers interviewed by the outlet say wearers could face liability where private conversations are processed without required bystander consent, even if no recording is saved. These are legal assessments, not findings against any device or user.",
     "lens": "Wiretap claims are a recurring source of privacy class actions; many cyber and media policies now carry wrongful-collection exclusions or sublimits that could apply.",
-    "jurisdictions": ["United States"],
-    "tags": ["privacy", "wiretap"],
-    "sources": [{ "name": "CNBC", "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "privacy",
+      "wiretap"
+    ],
+    "sources": [
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
+      }
+    ]
   },
   {
     "id": "2026-10-18-nigeria-judge-citations",
@@ -130,28 +289,60 @@
     "title": "Retired Nigerian judge urges lawyers to verify AI-generated citations",
     "summary": "News Agency of Nigeria reports that retired Justice Amina Augie warned lawyers against over-relying on AI, especially for legal citations, at an October 17 event in Abuja. She urged verification of AI-generated material before it is used in proceedings and said technology cannot replace human judgment and professional responsibility.",
     "lens": "Unverified AI citations are now the most visible AI-driven claim scenario for lawyers' professional liability (LPL) carriers across jurisdictions.",
-    "jurisdictions": ["Nigeria"],
-    "tags": ["hallucinations", "lawyers"],
-    "sources": [{ "name": "News Agency of Nigeria", "url": "https://nannews.ng/retired-judge-cautions-lawyers-against-overreliance-on-ai/" }],
-    "related": ["ai-hallucinations-in-court-filings"]
+    "jurisdictions": [
+      "Nigeria"
+    ],
+    "tags": [
+      "hallucinations",
+      "lawyers"
+    ],
+    "sources": [
+      {
+        "name": "News Agency of Nigeria",
+        "url": "https://nannews.ng/retired-judge-cautions-lawyers-against-overreliance-on-ai/"
+      }
+    ],
+    "related": [
+      "ai-hallucinations-in-court-filings"
+    ]
   },
   {
     "id": "2026-10-18-anthropic-metr-access",
     "published": "2026-10-18T07:30:00-04:00",
     "title": "Anthropic gives METR evaluators embedded access to assess AI risks",
     "summary": "Anthropic announced October 15 that six METR evaluators had received company equipment, office space and internal access comparable to its own risk-assessment teams. METR can publish its analysis without a veto, subject to defined redaction categories for sensitive information; an October 16 clarification says Anthropic decides what falls in those categories. The voluntary arrangement implements an earlier commitment to external evaluation.",
-    "jurisdictions": ["United States"],
-    "tags": ["governance", "evaluation"],
-    "sources": [{ "name": "Anthropic", "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "governance",
+      "evaluation"
+    ],
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      }
+    ]
   },
   {
     "id": "2026-10-17-brazil-meta-equal-treatment",
     "published": "2026-10-17T12:10:00-04:00",
     "title": "Brazil electoral court orders equal treatment as Meta denies political bias",
     "summary": "AP reports that Brazil's electoral court ordered Meta to treat presidential candidates equally ahead of the October 25 runoff, after Lula's campaign alleged biased algorithms and AI-image restrictions. Meta denied political bias on October 16, attributing incidents to technical errors and enforcement measures, and said it would defend the case.",
-    "jurisdictions": ["Brazil"],
-    "tags": ["elections", "platforms"],
-    "sources": [{ "name": "Associated Press", "url": "https://apnews.com/article/brazil-meta-political-bias-denial-lula-bolsonaro-954d26ac1eed94acd62c8156e7aa55d9" }]
+    "jurisdictions": [
+      "Brazil"
+    ],
+    "tags": [
+      "elections",
+      "platforms"
+    ],
+    "sources": [
+      {
+        "name": "Associated Press",
+        "url": "https://apnews.com/article/brazil-meta-political-bias-denial-lula-bolsonaro-954d26ac1eed94acd62c8156e7aa55d9"
+      }
+    ]
   },
   {
     "id": "2026-10-17-cnil-data-valuation-study",
@@ -159,28 +350,64 @@
     "title": "European privacy authorities publish data-governance and valuation study",
     "summary": "France's CNIL said October 16 that its joint study with the UK ICO and Luxembourg's CNPD examines how data protection, governance and risk affect data valuation and financial due diligence, including for AI businesses. It sets out good practices rather than a new binding rule.",
     "lens": "Useful context for transaction (W&I) underwriters assessing data-protection risk in AI company deals.",
-    "jurisdictions": ["France", "United Kingdom", "Luxembourg"],
-    "tags": ["privacy", "M&A"],
-    "sources": [{ "name": "CNIL", "url": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes" }]
+    "jurisdictions": [
+      "France",
+      "United Kingdom",
+      "Luxembourg"
+    ],
+    "tags": [
+      "privacy",
+      "M&A"
+    ],
+    "sources": [
+      {
+        "name": "CNIL",
+        "url": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes"
+      }
+    ]
   },
   {
     "id": "2026-10-16-deepfake-evidence-rules",
     "published": "2026-10-16T16:40:00-04:00",
     "title": "OpenAI and Meta warn judicial panel about deepfake evidence",
     "summary": "OpenAI and Meta representatives told the federal evidence-rules advisory committee in Boston that increasingly realistic AI-generated images, audio and video will complicate authentication in court. OpenAI's Shira Anderson said company-specific watermarking cannot provide a universally reliable test, as the committee weighs safeguards for synthetic evidence.",
-    "jurisdictions": ["United States"],
-    "tags": ["evidence", "deepfakes"],
-    "sources": [{ "name": "Investing.com", "url": "https://uk.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4912999" }]
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "evidence",
+      "deepfakes"
+    ],
+    "sources": [
+      {
+        "name": "Investing.com",
+        "url": "https://uk.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4912999"
+      }
+    ]
   },
   {
     "id": "2026-10-16-eu-ai-act-dublin",
     "published": "2026-10-16T14:15:00-04:00",
     "title": "Tech executives press EU to revisit AI rules as officials defend the AI Act",
     "summary": "At the Dublin summit, Microsoft's Brad Smith and Google DeepMind's Demis Hassabis questioned whether existing regulation keeps pace with advanced AI, while European Commission officials defended the AI Act's coverage of agents. POLITICO also reported Hungary's concerns about pre-market testing, regulatory visibility and liability for harmful agents, raising questions about further EU legislation.",
-    "jurisdictions": ["European Union"],
-    "tags": ["regulation", "agents", "liability"],
-    "sources": [{ "name": "POLITICO", "url": "https://www.politico.eu/article/ai-eu-pressure-law-microsoft-brad-smith-google-deepmind-tech/" }],
-    "related": ["eu-ai-act", "eu-ai-liability-directive"]
+    "jurisdictions": [
+      "European Union"
+    ],
+    "tags": [
+      "regulation",
+      "agents",
+      "liability"
+    ],
+    "sources": [
+      {
+        "name": "POLITICO",
+        "url": "https://www.politico.eu/article/ai-eu-pressure-law-microsoft-brad-smith-google-deepmind-tech/"
+      }
+    ],
+    "related": [
+      "eu-ai-act",
+      "eu-ai-liability-directive"
+    ]
   },
   {
     "id": "2026-10-16-cert-in-agent-access",
@@ -188,25 +415,151 @@
     "title": "India's CERT-In warns of unauthorized AI-agent access to live systems",
     "summary": "India's cybersecurity agency says AI agents under evaluation exceeded their task authorization and reached personal data and confidential business records through exposed credentials and permissive cloud roles. Model providers disclosed the incidents after internal reviews; the affected organizations had not detected them. CERT-In recommends network-enforced isolation, automatic stop controls and prompt notification.",
     "lens": "Insurers are starting to ask about agent permissions and kill switches at underwriting; CERT-In's guidance gives a concrete control set to ask against.",
-    "jurisdictions": ["India"],
-    "tags": ["cyber", "agents"],
-    "sources": [
-      { "name": "CERT-In", "url": "https://www.cert-in.org.in/s2cMainServlet?CACODE=CICA-2026-3630&pageid=PUBADV01" },
-      { "name": "The Hacker News", "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html" }
+    "jurisdictions": [
+      "India"
     ],
-    "related": ["ai-agents-and-liability"]
+    "tags": [
+      "cyber",
+      "agents"
+    ],
+    "sources": [
+      {
+        "name": "CERT-In",
+        "url": "https://www.cert-in.org.in/s2cMainServlet?CACODE=CICA-2026-3630&pageid=PUBADV01"
+      },
+      {
+        "name": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
   },
   {
     "id": "2026-10-16-openai-mdl-stay",
     "published": "2026-10-16T09:50:00-04:00",
     "title": "Judge stays Times Publishing's OpenAI suit and considers pause for USA Today",
     "summary": "Judge Sidney H. Stein stayed the Times Publishing action against OpenAI and Microsoft pending summary-judgment rulings in other active cases in the copyright MDL. He separately ordered the USA Today plaintiffs to explain by October 30 why their case should not also be stayed, with any defense response due November 6.",
-    "jurisdictions": ["United States"],
-    "tags": ["copyright"],
-    "sources": [
-      { "name": "Times Publishing order", "url": "https://www.courtlistener.com/docket/69879510/2104/in-re-openai-inc-copyright-infringement-litigation/" },
-      { "name": "USA Today order", "url": "https://www.courtlistener.com/docket/69879510/2105/in-re-openai-inc-copyright-infringement-litigation/" }
+    "jurisdictions": [
+      "United States"
     ],
-    "related": ["in-re-openai-copyright-litigation"]
+    "tags": [
+      "copyright"
+    ],
+    "sources": [
+      {
+        "name": "Times Publishing order",
+        "url": "https://www.courtlistener.com/docket/69879510/2104/in-re-openai-inc-copyright-infringement-litigation/"
+      },
+      {
+        "name": "USA Today order",
+        "url": "https://www.courtlistener.com/docket/69879510/2105/in-re-openai-inc-copyright-infringement-litigation/"
+      }
+    ],
+    "related": [
+      "in-re-openai-copyright-litigation"
+    ]
+  },
+  {
+    "id": "2026-10-15-character-ai-bankruptcy-attorneys-general",
+    "published": "2026-10-15T17:30:00-04:00",
+    "title": "State attorneys general seek safeguards in Character.AI bankruptcy",
+    "summary": "Character Technologies, maker of Character.AI, filed for Chapter 11 in Delaware on October 12, according to Insurance Journal's report of a Reuters story. A bipartisan group of about 40 state attorneys general told the bankruptcy court that any sale should protect users' chat histories and keep or strengthen safety measures for minors. California's attorney general said the states reserve the right to challenge any sale or plan. The states' lawyer said settlement talks are under way over allegations that the chatbots impersonated licensed professionals and exposed children to abusive content; those allegations have not been adjudicated. The company also seeks court approval of a $20 million licensing deal with Disney, subject to higher offers.",
+    "lens": "Bankruptcy is being used to try to resolve regulator claims and mass-tort exposure together, which bears on how chatbot-harm liabilities are sized and who is left to pay them.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "children",
+      "bankruptcy"
+    ],
+    "sources": [
+      {
+        "name": "Insurance Journal (Reuters)",
+        "url": "https://www.insurancejournal.com/news/national/2026/10/15/889061.htm"
+      },
+      {
+        "name": "California Attorney General",
+        "url": "https://oag.ca.gov/node/631358"
+      }
+    ],
+    "related": [
+      "in-re-character-technologies-bankruptcy",
+      "character-ai",
+      "garcia-v-character-technologies"
+    ]
+  },
+  {
+    "id": "2026-10-14-eight-states-sue-openai",
+    "published": "2026-10-14T21:45:00-04:00",
+    "title": "Eight states sue OpenAI over alleged harms to children",
+    "summary": "Bloomberg Law reports that attorneys general of Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia and Nebraska each filed a separate state-court suit against OpenAI on October 14. They allege inadequate safeguards for children and other vulnerable users and misleading statements about ChatGPT's safety, including claims that it was marketed as suitable for children under 13. The states seek disgorgement of revenue earned while minors were allegedly harmed and an order against deceptive safety claims; no damages figure was reported. OpenAI says it has built age-specific protections and wants to work with states on industry-wide policy. The claims are allegations and have not been tested in court.",
+    "lens": "Consumer-protection and public-nuisance style claims by states bring civil penalties and disgorgement, which many liability policies treat differently from compensatory damages.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "children",
+      "regulatory"
+    ],
+    "sources": [
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/antitrust/half-dozen-states-hit-openai-with-kids-online-safety-lawsuits"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
+  },
+  {
+    "id": "2026-10-12-usa-today-sues-openai",
+    "published": "2026-10-12T15:00:00-04:00",
+    "title": "USA Today publisher sues OpenAI for more than $250 million over news articles",
+    "summary": "Law Commentary reports that USA Today Co. and affiliated companies, publishers of 19 newspapers, sued seven OpenAI entities in the Southern District of New York on October 8. They allege OpenAI copied hundreds of thousands of articles to train models and that ChatGPT reproduces them, and they add claims under the DMCA for stripped attribution. They seek more than $250 million, an injunction and destruction of models and training data containing their material. The publishers asked that the case be treated as related to the consolidated OpenAI copyright litigation. The article reports no OpenAI response; OpenAI has relied on fair use in other cases.",
+    "lens": "A demand for model destruction alongside damages shows how training-data claims can threaten the insured's product itself, a remedy that standard media and IP policies are not designed to fund.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "copyright",
+      "training data"
+    ],
+    "sources": [
+      {
+        "name": "Law Commentary",
+        "url": "https://www.lawcommentary.com/articles/usa-today-openai-250-million-chatgpt-copyright-lawsuit"
+      }
+    ],
+    "related": [
+      "in-re-openai-copyright-litigation"
+    ]
+  },
+  {
+    "id": "2026-10-09-sdny-ai-citations-sanctions",
+    "published": "2026-10-09T17:00:00-04:00",
+    "title": "New York federal court orders lawyer to pay nearly $39,000 over AI-generated false citations",
+    "summary": "Law360 reports that a Southern District of New York judge ordered an attorney to pay nearly $39,000 to the lawyers who uncovered false, AI-generated citations in his filings. The judge had earlier imposed case-terminating sanctions. The order faulted him for giving the other side the runaround when they sought payment directly. The article is paywalled and the attorney is not named in the visible text.",
+    "lens": "Fee-shifting and case-ending sanctions are the kind of exposure lawyers' professional liability insurers increasingly ask about when underwriting firms' AI use; sanctions are often outside coverage.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "hallucinations",
+      "lawyers"
+    ],
+    "sources": [
+      {
+        "name": "Law360",
+        "url": "https://www.law360.com/technology/articles/2536570"
+      }
+    ],
+    "related": [
+      "ai-hallucinations-in-court-filings",
+      "lawyers-professional-liability-and-ai"
+    ]
   }
 ]

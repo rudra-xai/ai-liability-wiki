@@ -1,15 +1,134 @@
 [
-  { "date": "2026-10-19", "title": "FDA GenAI device comments", "description": "Comments close on FDA’s proposed approach to generative-AI medical devices.", "source": { "name": "FDA", "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices" } },
-  { "date": "2026-10-19", "title": "GSA AI procurement clause", "description": "Part 552 deviation, including GSA’s LLM data-safeguarding clause, takes effect for covered acquisitions.", "source": { "name": "GSA deviation", "url": "https://www.acquisition.gov/sites/default/files/page_file_uploads/RGO-2026-01.pdf" } },
-  { "date": "2026-10-19", "title": "New Jersey AI hearing", "description": "Assembly hearing on AI and society; four bills for discussion only. Trenton, 1 p.m. EDT.", "source": { "name": "NJ legislative calendar", "url": "https://pub.njleg.state.nj.us/publications/legislative-calendar/101626.pdf" } },
-  { "date": "2026-10-20", "title": "AI policing and civil rights", "description": "Federal advisory committee public briefing on discrimination and privacy; online, 3–5 p.m. Central.", "source": { "name": "U.S. Commission on Civil Rights", "url": "https://usccr.gov/meetings/2026/10-20-illinois-advisory-committee-virtual-panels-examining-civil-rights-and-liberties" } },
-  { "date": "2026-10-20", "title": "EU global AI initiatives", "description": "Council working-party briefing on global AI initiatives; Brussels, 4 p.m. local. Delegates’ meeting.", "source": { "name": "Council agenda", "url": "https://data.consilium.europa.eu/doc/document/CM-4494-2026-INIT/en/pdf" } },
-  { "date": "2026-10-21", "title": "AI loads and grid reliability", "description": "FERC technical conference on reliability, including AI compute campuses; Washington and webcast, 10 a.m.–2:40 p.m. EDT.", "source": { "name": "FERC notice", "url": "https://ferc.gov/sites/default/files/2026-10/20261015-3040_AD26-8-000%20Technical%20Conference.pdf" } },
-  { "date": "2026-10-21", "title": "California AI-threat hearing", "description": "Senate informational hearing on AI threats; Sacramento, 9 a.m. local.", "source": { "name": "California Senate", "url": "https://spdtcp.senate.ca.gov/agenda" } },
-  { "date": "2026-10-21", "title": "AI chatbot liability", "description": "NYU forum on social-media and AI-chatbot litigation; New York, 1:10–2:25 p.m. Not open to the public.", "source": { "name": "NYU Law", "url": "https://www.law.nyu.edu/events/nyu-law-forum-legal-reckoning-social-media-and-ai-chatbot-litigation" } },
-  { "date": "2026-10-22", "title": "Canada Senate AI hearing", "description": "Senate AI-impact study, with Minister Evan Solomon listed to appear; Ottawa and videoconference, 10:30 a.m. Eastern. Subject to change.", "source": { "name": "Senate notice", "url": "https://sencanada.ca/en/committees/SOCI/noticeofmeeting/706628/45-1" } },
-  { "date": "2026-10-22", "title": "GenAI discovery and evidence", "description": "Sedona sessions on discovery, admissibility and privilege; New Orleans. Working-group membership required.", "source": { "name": "Sedona Conference", "url": "https://www.thesedonaconference.org/WG1_AM26" } },
-  { "date": "2026-10-23", "title": "AI rights and accountability", "description": "NYU COMPASS conference on legal status, corporate liability and regulation; New York. Registration required.", "source": { "name": "NYU Law", "url": "https://www.law.nyu.edu/events/conference-ai-rights-wrongs-launch-compass-program-nyu-law" } },
-  { "date": "2026-10-23", "title": "AI and the law", "description": "Conference on AI in legal practice, ethics and justice; Haub Law, White Plains, New York.", "source": { "name": "Pace University", "url": "https://www.pace.edu/law/haub-law-50/ai-and-law-conference" } },
-  { "date": "2026-10-23", "title": "Italy AI decree in force", "description": "Italy’s Decree No. 179 implementing the EU AI Act enters into force, including IVASS supervision of high-risk insurance AI.", "source": null }
+  {
+    "date": "2026-10-19",
+    "title": "FDA GenAI device comments",
+    "description": "Comments close on FDA’s proposed approach to generative-AI medical devices.",
+    "source": {
+      "name": "FDA",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-feedback-inform-regulatory-approach-generative-ai-enabled-medical-devices"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "GSA AI procurement clause",
+    "description": "Part 552 deviation, including GSA’s LLM data-safeguarding clause, takes effect for covered acquisitions.",
+    "source": {
+      "name": "GSA deviation",
+      "url": "https://www.acquisition.gov/sites/default/files/page_file_uploads/RGO-2026-01.pdf"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "title": "New Jersey AI hearing",
+    "description": "Assembly hearing on AI and society; four bills for discussion only. Trenton, 1 p.m. EDT.",
+    "source": {
+      "name": "NJ legislative calendar",
+      "url": "https://pub.njleg.state.nj.us/publications/legislative-calendar/101626.pdf"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "title": "AI policing and civil rights",
+    "description": "Federal advisory committee public briefing on discrimination and privacy; online, 3–5 p.m. Central.",
+    "source": {
+      "name": "U.S. Commission on Civil Rights",
+      "url": "https://usccr.gov/meetings/2026/10-20-illinois-advisory-committee-virtual-panels-examining-civil-rights-and-liberties"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "title": "EU global AI initiatives",
+    "description": "Council working-party briefing on global AI initiatives; Brussels, 4 p.m. local. Delegates’ meeting.",
+    "source": {
+      "name": "Council agenda",
+      "url": "https://data.consilium.europa.eu/doc/document/CM-4494-2026-INIT/en/pdf"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "AI loads and grid reliability",
+    "description": "FERC technical conference on reliability, including AI compute campuses; Washington and webcast, 10 a.m.–2:40 p.m. EDT.",
+    "source": {
+      "name": "FERC notice",
+      "url": "https://ferc.gov/sites/default/files/2026-10/20261015-3040_AD26-8-000%20Technical%20Conference.pdf"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "California AI-threat hearing",
+    "description": "Senate informational hearing on AI threats; Sacramento, 9 a.m. local.",
+    "source": {
+      "name": "California Senate",
+      "url": "https://spdtcp.senate.ca.gov/agenda"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "AI chatbot liability",
+    "description": "NYU forum on social-media and AI-chatbot litigation; New York, 1:10–2:25 p.m. Not open to the public.",
+    "source": {
+      "name": "NYU Law",
+      "url": "https://www.law.nyu.edu/events/nyu-law-forum-legal-reckoning-social-media-and-ai-chatbot-litigation"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Canada Senate AI hearing",
+    "description": "Senate AI-impact study, with Minister Evan Solomon listed to appear; Ottawa and videoconference, 10:30 a.m. Eastern. Subject to change.",
+    "source": {
+      "name": "Senate notice",
+      "url": "https://sencanada.ca/en/committees/SOCI/noticeofmeeting/706628/45-1"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "GenAI discovery and evidence",
+    "description": "Sedona sessions on discovery, admissibility and privilege; New Orleans. Working-group membership required.",
+    "source": {
+      "name": "Sedona Conference",
+      "url": "https://www.thesedonaconference.org/WG1_AM26"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI rights and accountability",
+    "description": "NYU COMPASS conference on legal status, corporate liability and regulation; New York. Registration required.",
+    "source": {
+      "name": "NYU Law",
+      "url": "https://www.law.nyu.edu/events/conference-ai-rights-wrongs-launch-compass-program-nyu-law"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "AI and the law",
+    "description": "Conference on AI in legal practice, ethics and justice; Haub Law, White Plains, New York.",
+    "source": {
+      "name": "Pace University",
+      "url": "https://www.pace.edu/law/haub-law-50/ai-and-law-conference"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Italy AI decree in force",
+    "description": "Italy’s Decree No. 179 implementing the EU AI Act enters into force, including IVASS supervision of high-risk insurance AI.",
+    "source": null
+  },
+  {
+    "date": "2026-10-30",
+    "title": "USA Today plaintiffs' stay response due",
+    "description": "Deadline for the USA Today plaintiffs to explain why their case should not be stayed in the OpenAI copyright MDL; defendants' response due November 6.",
+    "source": {
+      "name": "CourtListener",
+      "url": "https://www.courtlistener.com/docket/69879510/2105/in-re-openai-inc-copyright-infringement-litigation/"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "EU copyright consultation closes",
+    "description": "Commission targeted consultation on copyright reform, including AI training use, closes.",
+    "source": {
+      "name": "Stephenson Harwood",
+      "url": "https://www.stephensonharwood.com/insights/neural-network-october-2026/"
+    }
+  }
 ]
