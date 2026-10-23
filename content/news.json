@@ -561,5 +561,105 @@
       "ai-hallucinations-in-court-filings",
       "lawyers-professional-liability-and-ai"
     ]
+  },
+  {
+    "id": "2026-10-23-fifth-circuit-wingate-ai-errors",
+    "published": "2026-10-23T05:10:00-04:00",
+    "title": "Fifth Circuit reassigns Mississippi DEI case after district order contained AI errors",
+    "summary": "The National Law Journal reports that the Fifth Circuit has sent a First Amendment challenge to a Mississippi anti-DEI law to a different district judge after the original judge's restraining orders and preliminary injunction contained AI-generated errors. Judge Jerry Smith, writing for the court, referred to the 'embarrassment of the AI hallucinations and mistakes of law' in the orders. Earlier reporting by the ABA Journal said Judge Henry Wingate had attributed the July 2025 order's errors, which included nonexistent declarations, to a law clerk's use of Perplexity on an early draft, and that he replaced it with a corrected version. The reassignment follows oral argument on 1 September.",
+    "lens": "Courts treating AI-generated errors as grounds to reassign a case show that AI-error exposure reaches judicial work product as well as lawyers' filings, a point relevant to professional and court-related risk assessments.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "hallucinations",
+      "evidence",
+      "federal"
+    ],
+    "sources": [
+      {
+        "name": "National Law Journal",
+        "url": "https://law.com/nationallawjournal/2026/10/22/a-botch-job-5th-circuit-reassigns-case-after-judge-misused-ai-to-draft-ruling"
+      },
+      {
+        "name": "ABA Journal",
+        "url": "https://www.abajournal.com/news/article/judges-release-of-order-with-ai-errors-is-a-serious-matter-5th-circuit-says"
+      }
+    ],
+    "related": [
+      "ai-hallucinations-in-court-filings"
+    ]
+  },
+  {
+    "id": "2026-10-23-florida-appeals-court-soroka-bar-referral",
+    "published": "2026-10-23T05:18:00-04:00",
+    "title": "Florida appeals court refers lawyer to Bar over 'AI slop' filings",
+    "summary": "JD Journal reports that Florida's Fourth District Court of Appeal on 21 October rejected an 82-page response from attorney Jaclyn Soroka and referred her to the Florida Bar for possible discipline, in a Broward County family-law matter (Lisandrillo v. Palozzi). The court described several of her filings as 'AI slop' and said some arguments conflicted with the record, but the cases she cited reportedly existed, so the concern was reasoning and length rather than invented authority. Soroka said she used her own judgment and checked her sources, and acknowledged that one motion contained a false quotation from an earlier decision, which she attributed to human error and deadline pressure. The referral is not a finding of misconduct and imposes no penalty.",
+    "lens": "Disciplinary referrals tied to suspected AI use are a lawyers' professional liability exposure even where no fabricated citation is found.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "lawyers",
+      "hallucinations"
+    ],
+    "sources": [
+      {
+        "name": "JD Journal",
+        "url": "https://jdjournal.com/2026/10/22/florida-lawyer-ai-court-filing-discipline"
+      }
+    ],
+    "related": [
+      "lawyers-professional-liability-and-ai",
+      "ai-hallucinations-in-court-filings"
+    ]
+  },
+  {
+    "id": "2026-10-23-fifa-puerto-rico-citation-sanctions",
+    "published": "2026-10-23T05:26:00-04:00",
+    "title": "FIFA seeks dismissal of Puerto Rico antitrust suit over unpaid citation sanctions",
+    "summary": "Law Commentary reports that FIFA asked a federal court in Puerto Rico on 6 October to dismiss the Puerto Rico Soccer League's remaining Sherman Act claim because the league's lawyers have not paid sanctions imposed in September 2025. Chief Judge Raúl Arias-Marxuach had ordered $24,492.10 over 55 defective citations in four filings, finding a Rule 11 failure to verify citations and saying the errors had hallmarks of generative AI. Both lawyers denied using AI. The attorneys proposed paying $1,000 a month from 15 October, which FIFA and CONCACAF opposed; as of the report the court had not ruled on the dismissal request.",
+    "lens": "Unpaid citation sanctions escalating to a dismissal request illustrate how verification failures can compound into client-level consequences, relevant to lawyers' professional liability claims.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "lawyers",
+      "hallucinations"
+    ],
+    "sources": [
+      {
+        "name": "Law Commentary",
+        "url": "https://www.lawcommentary.com/articles/fifa-antitrust-lawsuit-ai-citations-sanctions"
+      }
+    ],
+    "related": [
+      "lawyers-professional-liability-and-ai",
+      "ai-hallucinations-in-court-filings"
+    ]
+  },
+  {
+    "id": "2026-10-23-china-spc-ai-disputes-opinions",
+    "published": "2026-10-23T05:34:00-04:00",
+    "title": "China's Supreme People's Court issues opinions on trying AI-related disputes",
+    "summary": "A Reed Smith client alert dated 5 October describes opinions the Supreme People's Court issued on 7 September on trying AI-related disputes. Fault-based liability is the default, assessed through factors including the AI's autonomy, technical transparency and preventive measures; 'AI products' for product-liability purposes are defined narrowly as physical products such as robots and autonomous vehicles. Generative AI providers receive a notice-and-takedown safe harbour applied by analogy, and parties must verify and disclose AI-generated material submitted as evidence. The opinions leave open whether AI output is copyrightable and whether training on copyrighted works infringes. The alert does not state an effective date.",
+    "lens": "The narrow product definition and fault-based default shape which liability line, product, E&O or cyber, AI losses in China are likely to fall under.",
+    "jurisdictions": [
+      "China"
+    ],
+    "tags": [
+      "liability",
+      "regulation",
+      "product liability"
+    ],
+    "sources": [
+      {
+        "name": "Reed Smith",
+        "url": "https://www.reedsmith.com/articles/china-s-supreme-court-issues-landmark-opinions-on-ai/"
+      }
+    ],
+    "related": [
+      "ai-liability-regimes"
+    ]
   }
 ]
