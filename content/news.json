@@ -661,5 +661,97 @@
     "related": [
       "ai-liability-regimes"
     ]
+  },
+  {
+    "id": "2026-10-24-anthropic-music-publishers-fair-use-hearing",
+    "published": "2026-10-24T05:10:00-04:00",
+    "title": "Judge hears fair-use summary judgment arguments in music publishers' case against Anthropic",
+    "summary": "Lawyer Monthly reported on 22 October that US District Judge Eumi Lee heard competing summary judgment motions in San Jose in the music publishers' lyrics case against Anthropic. Anthropic argues that training Claude is transformative fair use; the publishers, which include Universal Music Publishing Group, Concord and ABKCO, allege Claude can reproduce lyrics or generate competing material and point to evidence about roughly 120,000 prompts. The judge reportedly focused on market harm, one fair-use factor. She has taken the motions under consideration and has not ruled.",
+    "lens": "A fair-use ruling will shape how insurers price copyright and IP infringement exposure for model developers and for businesses that deploy their output.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "copyright"
+    ],
+    "sources": [
+      {
+        "name": "Lawyer Monthly",
+        "url": "https://lawyer-monthly.com/2026/10/anthropic-and-music-publishers-clash-over-ai-copyright-fair-use"
+      }
+    ],
+    "related": [
+      "in-re-openai-copyright-litigation"
+    ]
+  },
+  {
+    "id": "2026-10-24-arbol-data-center-moratorium-cover",
+    "published": "2026-10-24T05:14:00-04:00",
+    "title": "Arbol launches parametric cover for data-center projects halted by government moratoriums",
+    "summary": "Crypto Briefing reported that New York specialty insurer Arbol unveiled a Data Center Regulatory Moratorium Cover on 20 October, citing an initial Bloomberg report. The parametric policy is described as paying a set amount if a government action halting data-center construction across a class of projects stays in effect beyond an agreed waiting period. It does not cover site-specific permit denials, and locations with active moratoriums are excluded. Payouts are said to rely on the public record rather than loss adjustment.",
+    "lens": "This is not AI liability cover, but it shows insurers pricing political and regulatory risk around AI infrastructure through parametric triggers.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/arbol-data-center-moratorium-insurance-ai/"
+      }
+    ],
+    "related": [
+      "insurance-coverage-for-ai-losses"
+    ]
+  },
+  {
+    "id": "2026-10-24-colorado-ag-adm-chatbot-rules-comments",
+    "published": "2026-10-24T05:18:00-04:00",
+    "title": "Colorado attorney general's draft ADMT and chatbot rules near comment deadline",
+    "summary": "A September regulatory update from Vorp Labs says the Colorado attorney general filed proposed rules on 11 August implementing SB 26-189 on automated decision-making technology and HB 26-1263 on chatbot safety. Formal comments are reported open through 26 October, and the deadline may extend if a hearing runs later. The statutes' commencement date is reported as 1 January 2027. The source could not confirm whether a revised draft was published, so the current status should be checked on the attorney general's docket.",
+    "lens": "Rules that define duties for automated decision-making and chatbots set the compliance baseline insurers will reference in underwriting and in coverage disputes over regulatory claims.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "regulation",
+      "chatbots"
+    ],
+    "sources": [
+      {
+        "name": "Vorp Labs",
+        "url": "https://vorplabs.com/ai-regulatory-updates/united-states/2026-09/colorado-admt-rules-california-ai-bills-ftc-cmg-order"
+      }
+    ],
+    "related": [
+      "colorado-ai-act"
+    ]
+  },
+  {
+    "id": "2026-10-24-state-chatbot-and-insurer-ai-bills-pennsylvania-new-york",
+    "published": "2026-10-24T05:22:00-04:00",
+    "title": "Pennsylvania and New York chatbot and insurer-AI bills advance, tracker reports",
+    "summary": "The Transparency Coalition's 16 October legislative update reports that Pennsylvania HB 2006, a companion-chatbot safety bill, passed the House 133-70 on 28 September and was referred to a Senate committee on 13 October. It also lists PA HB 1925, which would regulate health insurers' use of AI, as passed by the House 144-59 on 30 September and referred to a Senate committee on 14 October. New York S 9051, a children's chatbot safety bill with private rights of action, is listed as awaiting action by Gov. Hochul, who has until 31 December. All are proposals that have not been enacted.",
+    "lens": "Private rights of action in chatbot bills and limits on insurers' own AI use would both widen exposure for the carriers and insureds involved.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "regulation",
+      "insurance"
+    ],
+    "sources": [
+      {
+        "name": "Transparency Coalition",
+        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-october16-2026"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
   }
 ]
