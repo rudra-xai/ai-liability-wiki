@@ -753,5 +753,29 @@
     "related": [
       "chatbot-product-liability"
     ]
+  },
+  {
+    "id": "2026-10-25-texas-sues-openai-altman-safety-evaluator",
+    "published": "2026-10-25T05:30:00-04:00",
+    "title": "Texas sues OpenAI and Altman, seeking independent safety sign-off for new models",
+    "summary": "MLex reported on 24 October that the State of Texas has sued OpenAI and chief executive Sam Altman, who is named personally. According to the report, the state seeks an order barring OpenAI from releasing new AI models without approval from an independent safety evaluator, and an order prohibiting minors from using ChatGPT. The state alleges that the company and Altman knowingly put consumers at risk, prioritised commercial growth over safety and offered a \"dangerously unreliable product\". These are the state's allegations; the report does not name the court, and OpenAI's response was not described in the material reviewed.",
+    "lens": "State actions that seek pre-release safety approval and age restrictions, and that name executives personally, widen the exposure that technology E&O, D&O and general liability programs may be asked to address.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "regulation",
+      "liability"
+    ],
+    "sources": [
+      {
+        "name": "MLex",
+        "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2542081"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
   }
 ]
