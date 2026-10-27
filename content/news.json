@@ -777,5 +777,54 @@
     "related": [
       "chatbot-product-liability"
     ]
+  },
+  {
+    "id": "2026-10-27-arizona-appeals-kotchka-hallucinated-citations",
+    "published": "2026-10-27T06:10:00-04:00",
+    "title": "Arizona appeals court holds hallucinated citations sanctionable, including for self-represented litigants",
+    "summary": "In an opinion filed 15 July 2026 and reported on 26 October, the Arizona Court of Appeals, Division One, affirmed probate rulings in a family estate dispute after finding the appellant's opening brief relied on citations obtained through AI-assisted research that he had not verified. The court said some of the cited cases did not exist, struck the defective citations, and treated the appellant's arguments as unsupported. It held that citing a hallucinated case is sanctionable conduct and ordered the appellant to pay the opposing party's attorneys' fees caused by the bad citations, with the amount to be set after a fee request. The panel did not name the AI tool involved.",
+    "lens": "Fee-shifting for unverified AI citations extends sanction exposure beyond lawyers, which may matter to professional liability underwriters and to insureds who rely on AI-assisted research.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "hallucinations",
+      "lawyers",
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "name": "Arizona Court of Appeals, Division One (opinion, No. 1 CA-CV 25-0606 PB)",
+        "url": "https://coa1.azcourts.gov/Portals/1/OpinionFiles/Div1/2026/1%20CA-CV%2025-0606%20PB%20Dineen%20Shibata%20v%20Kotchka.pdf"
+      },
+      {
+        "name": "Vibe Graveyard",
+        "url": "https://vibegraveyard.ai/story/arizona-court-of-appeals-ai-hallucination-sanction-self-represented/"
+      }
+    ],
+    "related": [
+      "johnson-v-dunn"
+    ]
+  },
+  {
+    "id": "2026-10-27-specialty-insurers-case-by-case-ai-wsia",
+    "published": "2026-10-27T06:16:00-04:00",
+    "title": "Specialty insurers say they will weigh AI risks case by case rather than exclude them",
+    "summary": "Business Insurance reported on 15 October that executives at the Wholesale & Specialty Insurance Association's annual marketplace in San Diego expect excess and surplus insurers to assess AI liability individually instead of adopting broad exclusions. Speakers said they did not plan to use the optional ISO generative AI exclusions, and noted that most policies are silent on AI, so insurers may not know how much exposure they carry. CFC USA's chief executive said CFC has embedded affirmative AI coverage in many policies, while an AmTrust executive said nobody fully understands the exposure. Participants said court rulings on AI liability are expected to guide product development.",
+    "lens": "The comments point to a split market: some carriers exclude AI, while specialty underwriters ask insureds how they govern AI use and may price it affirmatively.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "exclusions"
+    ],
+    "sources": [
+      {
+        "name": "Business Insurance",
+        "url": "https://www.businessinsurance.com/specialty-insurers-weigh-ai-liability-risks-resist-exclusions/"
+      }
+    ],
+    "related": []
   }
 ]
