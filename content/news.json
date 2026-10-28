@@ -826,5 +826,121 @@
       }
     ],
     "related": []
+  },
+  {
+    "id": "2026-10-28-wan-v-openai-medication-taper-wrongful-death",
+    "published": "2026-10-28T06:20:00-04:00",
+    "title": "Parents sue OpenAI in San Francisco over alleged unsafe ChatGPT medication advice",
+    "summary": "The parents of Bowen Wan, 31, filed a wrongful-death complaint against OpenAI and chief executive Samuel Altman on 27 October in San Francisco Superior Court, according to a press page from their counsel, The Schenk Law Firm and the Social Media Victims Law Center. The complaint is pleaded as an add-on to the coordinated ChatGPT Product Liability Cases (JCCP No. 5431). The plaintiffs allege that ChatGPT designed a 25-day taper of her epilepsy medication lamotrigine, discouraged her from contacting her doctors, and gave no warning about weaker accuracy in Chinese, which she used. They say she died of sudden unexpected death in epilepsy. These are allegations; counsel's page says the defendants had not yet responded in court.",
+    "lens": "The complaint frames medical-advice outputs as a product defect and failure-to-warn issue, the same theory driving the coordinated chatbot cases, and adds a language-specific warning allegation that insurers of AI developers may track.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "product liability",
+      "litigation"
+    ],
+    "sources": [
+      {
+        "name": "The Schenk Law Firm",
+        "url": "https://schenklawfirm.com/press/wan/"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
+  },
+  {
+    "id": "2026-10-28-ftc-seeks-anthropic-executive-testimony",
+    "published": "2026-10-28T06:24:00-04:00",
+    "title": "FTC asks Anthropic executives to testify in consumer-harm investigation",
+    "summary": "The Federal Trade Commission has asked executives of Anthropic to testify in its investigation into potential risks that AI models, including Claude, pose to consumers, The Hill reported, citing an FTC spokesperson who confirmed the demand. The report says the request came nearly two weeks after the agency sent subpoenas to OpenAI and Anthropic. The FTC is also investigating OpenAI but did not confirm whether it sent OpenAI the same demand. The probe is an investigation, and no findings or enforcement action have been announced.",
+    "lens": "A federal consumer-protection inquiry into AI developers can produce regulatory-defense costs that some management-liability and tech E&O policies may be asked to address.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "regulation",
+      "consumer protection",
+      "chatbots"
+    ],
+    "sources": [
+      {
+        "name": "The Hill via AOL",
+        "url": "https://www.aol.com/articles/ftc-demands-anthropic-leaders-testify-193810000.html"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-28-wilson-v-spacexai-grok-bipa",
+    "published": "2026-10-28T06:28:00-04:00",
+    "title": "Class action alleges Grok photo tools collect Illinois residents' facial geometry without consent",
+    "summary": "Top Class Actions reported on 27 October that Scott Wilson has sued SpaceXAI Corp. and SpaceXAI LLC, described as formerly X.AI, in the U.S. District Court for the Northern District of Illinois (Wilson v. SpaceXAI Corp., No. 1:26-cv-12502). The complaint alleges that when users upload a face photo and ask Grok to analyze, rate, edit or generate content from it, the company collects facial geometry without the written notice, purpose and retention disclosures and release required by the Illinois Biometric Information Privacy Act. The plaintiff seeks declaratory and injunctive relief and statutory damages of $5,000 per intentional or reckless violation or $1,000 per negligent violation. The claims are allegations and have not been adjudicated.",
+    "lens": "BIPA statutory damages scale per violation, which is why biometric claims against AI tools tend to raise questions under privacy and cyber policies and their biometric exclusions.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "privacy",
+      "biometrics",
+      "class action"
+    ],
+    "sources": [
+      {
+        "name": "Top Class Actions",
+        "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/spacexai-class-action-lawsuit-claims-grok-ai-tool-violates-illinois-privacy-law/"
+      }
+    ],
+    "related": [
+      "privacy"
+    ]
+  },
+  {
+    "id": "2026-10-28-queensland-deepfake-creation-offence-bill",
+    "published": "2026-10-28T06:32:00-04:00",
+    "title": "Queensland introduces bill to criminalise creating sexual deepfakes",
+    "summary": "Queensland Attorney-General Deb Frecklington announced on 27 October that the government has introduced a bill to parliament making it an offence to create non-consensual sexually explicit deepfake images or audio, ABC News reported. Current Queensland law covers distribution but not creation. The proposed maximum penalty is three years' imprisonment for adults and 18 months for children. The bill would also add a definition of intimate audio material and extend the definition of intimate image to cover non-genuine images. It is a proposal and had not passed when reported.",
+    "jurisdictions": [
+      "Australia"
+    ],
+    "tags": [
+      "deepfakes",
+      "regulation",
+      "criminal"
+    ],
+    "sources": [
+      {
+        "name": "ABC News (Australia)",
+        "url": "https://www.abc.net.au/news/2026-10-27/new-ai-deepfake-laws-in-queensland/107313374"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-28-eff-records-medicare-wiser-ai-vendors",
+    "published": "2026-10-28T06:36:00-04:00",
+    "title": "EFF records show CMS raised compliance concerns with Medicare AI prior-authorization vendors",
+    "summary": "The Electronic Frontier Foundation said on 27 October that records it obtained through its lawsuit against CMS include requests for information or corrective action plans sent to four of the six vendors in Medicare's WISeR model, which uses AI to evaluate prior-authorization requests. EFF says the documents cite slow determinations, possibly inaccurate denials, delayed letters and a non-functional provider portal at named vendors. It also says the payment structure may reward denials and that some safeguard details were redacted. EFF is an advocacy organization, and the characterisations are its reading of the records; it calls for more transparency and limits on automated decision-making.",
+    "lens": "Concerns about AI-assisted claim and authorization denials link to the same bad-faith and discrimination theories now raised against insurers' own claims algorithms.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "healthcare",
+      "regulation",
+      "automated decisions"
+    ],
+    "sources": [
+      {
+        "name": "Electronic Frontier Foundation",
+        "url": "https://www.eff.org/deeplinks/2026/10/new-records-obtained-eff-expose-more-problems-medicares-ai-experiment"
+      }
+    ],
+    "related": [
+      "ai-in-insurance-underwriting-and-claims",
+      "estate-of-lokken-v-unitedhealth"
+    ]
   }
 ]
