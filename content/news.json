@@ -942,5 +942,105 @@
       "ai-in-insurance-underwriting-and-claims",
       "estate-of-lokken-v-unitedhealth"
     ]
+  },
+  {
+    "id": "2026-10-29-anthropic-s1-insurance-capacity-warning",
+    "published": "2026-10-29T06:10:00-04:00",
+    "title": "Anthropic's IPO filing says a catastrophic AI incident could exceed insurance capacity",
+    "summary": "Trade press reported on 27 and 28 October that Anthropic's SEC registration statement (Form S-1) lists insurance limits among its risk factors. According to Insurance Business, the filing says a catastrophic AI-related incident could cause losses beyond what any single insurer, or possibly the market as a whole, can underwrite, and that the market for AI-specific cover is still undeveloped. It also says Anthropic's cyber cover may fall short, that the $1.5bn Bartz copyright settlement was not fully covered by insurance, and that some contracts carry uncapped indemnities. Insurance executives quoted in the coverage, including from Liberty and WTW, described the disclosure as a signal about silent and aggregated AI risk.",
+    "lens": "A leading model developer saying its own risk may be partly uninsurable is relevant to accumulation modelling, silent-AI wording and the limits available for AI developers.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "ai developers",
+      "securities"
+    ],
+    "sources": [
+      {
+        "name": "Insurance Business",
+        "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/anthropics-ipo-filing-admits-a-worstcase-ai-disaster-could-be-too-big-for-insurers-to-cover-595082.aspx"
+      },
+      {
+        "name": "Commercial Risk",
+        "url": "https://www.commercialriskonline.com/anthropic-warns-ai-losses-could-exceed-insurance-industry-capacity/"
+      }
+    ],
+    "related": [
+      "insurance-coverage-for-ai-losses",
+      "ai-exclusions-and-policy-wording"
+    ]
+  },
+  {
+    "id": "2026-10-29-google-contact-center-ai-wiretap-dismissed",
+    "published": "2026-10-29T06:14:00-04:00",
+    "title": "Judge dismisses wiretap claims over Google's contact-center AI, sends others to arbitration",
+    "summary": "On 22 October, Judge Rita Lin of the Northern District of California issued two orders in In re Google Cloud Contact Center AI Privacy Litigation (No. 3:23-cv-05437), according to a case summary from Open Class Actions. The wiretap claims of callers to Home Depot were dismissed with leave to amend, with the court finding the complaint did not plausibly show Google intended to listen without consent. Callers to Verizon, Uber and Discover were compelled to individual arbitration, and their claims are stayed. An amended complaint is due 12 November. The claims are allegations; no class has been certified.",
+    "lens": "The ruling is a pleading-stage decision, but it shows how consent terms and arbitration clauses shape exposure for vendors and deployers of AI call tools under California privacy law.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "privacy",
+      "chatbots",
+      "litigation"
+    ],
+    "sources": [
+      {
+        "name": "Open Class Actions",
+        "url": "https://openclassactions.com/news/google-contact-center-ai-wiretap-lawsuit-dismissed.php"
+      }
+    ],
+    "related": [
+      "privacy"
+    ]
+  },
+  {
+    "id": "2026-10-29-fontainebleau-boteach-ai-chat-discovery",
+    "published": "2026-10-29T06:18:00-04:00",
+    "title": "Florida magistrate allows limited discovery of a defendant's AI chats in hotel defamation case",
+    "summary": "On 21 October, Magistrate Judge Marty Fulgueira Elfenbein of the Southern District of Florida ruled in Fontainebleau Florida Hotel v. Botach (No. 1:25-cv-20251), per a summary on RecordingLaw. She overruled blanket objections to requests for the defendant's non-privileged communications with AI platforms about the hotel, its counsel and its personnel, and allowed narrowed subpoenas to four AI providers. Other requests were limited, and work-product claims must be logged document by document. The order is an interim discovery ruling in a case where liability was already resolved by default judgment, and it does not itself compel the providers to produce anything.",
+    "lens": "Chatbot logs are becoming discoverable evidence, which matters for claims investigation, privilege handling and the evidence available in AI-related loss disputes.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "discovery",
+      "chatbots",
+      "defamation"
+    ],
+    "sources": [
+      {
+        "name": "RecordingLaw",
+        "url": "https://www.recordinglaw.com/news/ai-chat-logs-defamation-discovery-order/"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-29-flycatcher-ozmos-fake-citation-fee-award",
+    "published": "2026-10-29T06:22:00-04:00",
+    "title": "SDNY awards about $38,900 in fees against lawyer over AI-fabricated citations in Flycatcher case",
+    "summary": "Greenberg Traurig's e-discovery blog describes a 9 October order by Judge Katherine Polk Failla in Flycatcher Corp. v. Ozmos Co. (S.D.N.Y., No. 24 Civ. 9429). The court awarded $38,877.59 in fees and costs to the attorney who reported fake citations, after a 10% reduction from the $43,086.59 requested because of the offending lawyer's limited ability to pay. The award is assessed against the lawyer personally. Earlier in the case, the court found bad-faith violations after 14 of 60 cases cited in a motion-to-dismiss brief did not exist, struck the defendant's submissions and entered default judgment.",
+    "lens": "Personal fee awards and case-terminating outcomes illustrate the severity range lawyers' professional liability insurers face from unverified AI output.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "hallucinations",
+      "lawyers",
+      "sanctions"
+    ],
+    "sources": [
+      {
+        "name": "Greenberg Traurig E-Discovery Watch",
+        "url": "https://www.gtlaw-ediscoverywatch.com/2026/10/from-hallucination-to-sanctions-the-potential-costs-of-unverified-ai-citations/"
+      }
+    ],
+    "related": [
+      "ai-hallucinations-in-court-filings",
+      "lawyers-professional-liability-and-ai"
+    ]
   }
 ]
