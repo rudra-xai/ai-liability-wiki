@@ -139,5 +139,23 @@
       "name": "Vorp Labs",
       "url": "https://vorplabs.com/ai-regulatory-updates/united-states/2026-09/colorado-admt-rules-california-ai-bills-ftc-cmg-order"
     }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "NAIC AI working group Webex",
+    "description": "Public Webex of the Big Data and AI (H) Working Group, reported in connection with the AI Risk Evaluation Supplement version 6.0.",
+    "source": {
+      "name": "InsureAI Wire",
+      "url": "https://insureaiwire.com/news/naic-ai-supplement-v6-exposure/"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "NAIC AI Supplement 6.0 comments due",
+    "description": "Written comments close on version 6.0 of the AI Risk Evaluation Supplement.",
+    "source": {
+      "name": "InsureAI Wire",
+      "url": "https://insureaiwire.com/news/naic-ai-supplement-v6-exposure/"
+    }
   }
 ]

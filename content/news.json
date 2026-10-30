@@ -1042,5 +1042,126 @@
       "ai-hallucinations-in-court-filings",
       "lawyers-professional-liability-and-ai"
     ]
+  },
+  {
+    "id": "2026-10-30-naic-ai-supplement-v6-glm-exclusion",
+    "published": "2026-10-30T06:15:00-04:00",
+    "title": "NAIC exposes version 6.0 of its AI Risk Evaluation Supplement, letting regulators exclude GLMs from deeper inquiries",
+    "summary": "InsureAI Wire reports that the NAIC's Big Data and Artificial Intelligence (H) Working Group exposed version 6.0 of the AI Risk Evaluation Supplement after an October 16 notice, with written comments due 30 October. A new sentence would let regulators leave some or all generalized linear models out of the Exhibit B to D inquiries, while GLMs stay in the Exhibit A checklist. The draft also renames 'Adverse Consumer Outcome' as 'Adverse Consumer Impact', adds a question on agentic AI and new questions on unsanctioned AI use and nonpublic personal information in unapproved models. The draft states that the supplement does not itself create new legal duties. A working-group Webex is reported for 2 November and a Fall National Meeting session for 16 November.",
+    "lens": "A narrower or broader model scope changes how much regulators can ask insurers about AI in pricing and claims, which feeds directly into market-conduct exposure and E&O/D&O risk for carriers.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "regulation",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "InsureAI Wire: NAIC AI Supplement 6.0 exposure",
+        "url": "https://insureaiwire.com/news/naic-ai-supplement-v6-exposure/"
+      }
+    ],
+    "related": [
+      "naic-model-bulletin",
+      "naic",
+      "ai-in-insurance-underwriting-and-claims"
+    ]
+  },
+  {
+    "id": "2026-10-30-north-dakota-bulletin-2026-2-insurer-ai",
+    "published": "2026-10-30T06:19:00-04:00",
+    "title": "North Dakota insurance department issues Bulletin 2026-2 on insurers' use of algorithms and AI",
+    "summary": "InsureAI Wire reports that the North Dakota Insurance and Securities Department issued Bulletin 2026-2 on 5 October, covering algorithms, predictive models and artificial intelligence in insurance. It encourages, rather than requires, insurers to keep a written AI systems program, where the NAIC model bulletin says insurers are expected to do so. The bulletin reminds insurers that existing insurance law applies to AI-supported consumer decisions and that AI use may be examined in market conduct reviews. It states no effective date and stays in force until rescinded.",
+    "lens": "Softer wording on the written-program expectation may reduce prescriptive duties in one state, but insurers should still expect governance questions in examinations.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "regulation",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "InsureAI Wire: North Dakota AI bulletin",
+        "url": "https://insureaiwire.com/news/north-dakota-insurance-ai-bulletin/"
+      }
+    ],
+    "related": [
+      "naic-model-bulletin",
+      "naic"
+    ]
+  },
+  {
+    "id": "2026-10-30-warren-hawley-letters-insurers-ai-claims",
+    "published": "2026-10-30T06:23:00-04:00",
+    "title": "Senators Warren and Hawley write to six home and auto insurers about claims handling, including AI use",
+    "summary": "According to InsureAI Wire, Senators Elizabeth Warren and Josh Hawley sent letters dated 2 October to the chief executives of State Farm, Allstate, USAA, Farmers, Liberty Mutual and American Family, with responses requested by 16 October. Most questions concern claim outcomes, appeals, claims-handling changes and employee pay tied to claims metrics. One question asks how the companies use AI, predictive analytics or automated tools in homeowners and personal auto claims and what safeguards ensure fair and accurate determinations. The report says the letters carry no subpoena or stated consequence for missing the deadline.",
+    "lens": "Congressional attention to automated claims tools adds to the regulatory and litigation backdrop for bad-faith and unfair-claims-practices exposure.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "federal",
+      "automated decisions"
+    ],
+    "sources": [
+      {
+        "name": "InsureAI Wire: Senate home and auto claims AI letters",
+        "url": "https://insureaiwire.com/news/senate-home-auto-claims-ai-letters/"
+      }
+    ],
+    "related": [
+      "ai-in-insurance-underwriting-and-claims"
+    ]
+  },
+  {
+    "id": "2026-10-30-california-sb-354-insurance-privacy-ai",
+    "published": "2026-10-30T06:27:00-04:00",
+    "title": "California SB 354 rewrites insurance privacy law and treats AI systems as holders of personal information",
+    "summary": "InsureAI Wire summarizes California SB 354 (Limón), which the Governor approved on 27 September as Chapter 481. It repeals and re-adds the Insurance Information and Privacy Protection Act, adding a stand-alone privacy notice, opt-in consent for specified uses, retention schedules, reasons for adverse underwriting decisions and rights to correct or delete information. Personal information is treated as able to exist in AI systems capable of outputting it. The report says the law becomes operative on 1 July 2028 and cites penalties of at least $5,000 with a $1,000,000 aggregate cap, leaving open how deletion applies to AI models.",
+    "lens": "Deletion and correction rights that reach AI models could create compliance and privacy-claim exposure for insurers and their model vendors well before 2028.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "privacy",
+      "insurance",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "InsureAI Wire: California SB 354",
+        "url": "https://insureaiwire.com/news/california-sb-354-insurance-privacy-ai/"
+      }
+    ],
+    "related": [
+      "privacy",
+      "ai-in-insurance-underwriting-and-claims"
+    ]
+  },
+  {
+    "id": "2026-10-30-beijing-court-insurer-dismissal-ai-upload",
+    "published": "2026-10-30T06:31:00-04:00",
+    "title": "Beijing court rules insurer's dismissal of worker over AI use unlawful",
+    "summary": "MLex reports that the Chaoyang District People's Court in Beijing found an insurer unlawfully dismissed an employee for uploading work materials to an AI platform. The court revoked the termination notice, ordered the employment contract to continue and awarded the employee a year-end bonus shortfall, performance pay and lost wages. The report says the ruling clarifies the line between permissible AI use and breaches of workplace confidentiality duties. The parties are not named and the article gives no ruling date.",
+    "lens": "Employers' AI-use rules and discipline can themselves generate employment disputes, a point relevant to EPLI as well as to data-leakage risk.",
+    "jurisdictions": [
+      "China"
+    ],
+    "tags": [
+      "employment",
+      "privacy"
+    ],
+    "sources": [
+      {
+        "name": "MLex: Beijing court rules insurer's dismissal of worker over AI use unlawful",
+        "url": "https://www.mlex.com/mlex/data-privacy-security/articles/2543815"
+      }
+    ],
+    "related": []
   }
 ]
