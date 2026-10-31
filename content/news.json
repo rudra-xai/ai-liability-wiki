@@ -1163,5 +1163,90 @@
       }
     ],
     "related": []
+  },
+  {
+    "id": "2026-10-31-sec-enforcement-director-ai-disclosures",
+    "published": "2026-10-31T06:00:00-04:00",
+    "title": "SEC enforcement director says agency is examining AI companies' disclosures",
+    "summary": "Reuters reports that SEC enforcement director David Woodcock said the agency is examining AI companies' corporate disclosures. He described the principal concern as accuracy of disclosures on material information and said the remarks reflect monitoring, not announced cases. The interview came as investors voice worries about an AI spending bubble and cash burn. Woodcock also said AI has made scams cheaper to run at scale, so brokers need processes to protect retail investors.",
+    "lens": "Disclosure scrutiny of AI companies is a securities-claims exposure that may reach D&O programs if statements about AI spending or capabilities are later challenged.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "securities",
+      "regulatory"
+    ],
+    "sources": [
+      {
+        "name": "Reuters via AOL: US SEC's top cop says agency is examining AI companies' disclosures",
+        "url": "https://www.aol.com/articles/us-secs-top-cop-says-175527000.html"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-31-claude-code-extension-trojanized-cursor-marketplace",
+    "published": "2026-10-31T06:04:00-04:00",
+    "title": "Trojanized Claude Code extension distributed through Cursor marketplace",
+    "summary": "The Hacker News reports that a malicious version 2.1.313 of the Claude Code VS Code extension was distributed through the Cursor Marketplace under Anthropic's publisher identity on 29 October. Cursor said up to 5,000 users could be affected and that the version was not developed by Anthropic. Researchers quoted in the report say the code adds an SSH key, sets up persistence and sends host reconnaissance data; no follow-on payloads had been observed. Version 2.1.314 was published to other registries, and Cursor said it would contact affected users. How the update was pushed was unclear in the report.",
+    "lens": "A software supply-chain compromise involving an AI developer tool is the kind of event cyber policies address, including incident response and credential-rotation costs for affected organizations.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "cyber",
+      "agents"
+    ],
+    "sources": [
+      {
+        "name": "The Hacker News: Official Claude Code VS Code extension compromised",
+        "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-31-etsi-ts-104-275-deepfake-safeguards",
+    "published": "2026-10-31T06:08:00-04:00",
+    "title": "ETSI publishes technical specification on deepfake safeguards for AI systems",
+    "summary": "Biometric Update reports that ETSI has released TS 104 275, a specification from its Securing AI technical committee on reducing the risk of generative AI producing harmful deepfakes, including identity fraud and impersonation. It sets requirements across design, development, deployment, maintenance and end of life, covering risk assessment, documentation, human oversight, content filtering, labelling and monitoring. It includes test scenarios with pass/fail criteria. The report says it builds on ETSI EN 304 223 and supports objectives of the EU AI Act.",
+    "lens": "Technical standards can become reference points for what a reasonable developer safeguard looks like, which may inform underwriting questions and liability arguments.",
+    "jurisdictions": [
+      "European Union",
+      "International"
+    ],
+    "tags": [
+      "deepfakes",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Biometric Update: ETSI releases specification to help mitigate AI deepfake risk",
+        "url": "https://www.biometricupdate.com/202610/etsi-releases-specification-to-help-mitigate-ai-deepfake-risk"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-10-31-uk-cma-investigates-meta-publisher-terms-ai",
+    "published": "2026-10-31T06:12:00-04:00",
+    "title": "UK CMA opens investigation into Meta's terms for publishers, including AI use of content",
+    "summary": "Britbrief reports that the UK Competition and Markets Authority has opened an investigation into whether Meta's commercial terms for publishers and businesses are exploitative under the Competition Act 1998. The terms, as described, would let Meta use collected content for its own products, including AI features, without businesses being able to opt out. Meta had planned revisions but paused them. Meta said there are no grounds for an investigation and committed not to change terms without consultation. The CMA gave no timetable.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "regulation",
+      "platforms",
+      "training data"
+    ],
+    "sources": [
+      {
+        "name": "Britbrief: CMA investigates Meta terms for publishers and businesses",
+        "url": "https://britbrief.co.uk/tech/regulation/cma-investigates-meta-terms-for-publishers-and-businesses.html"
+      }
+    ],
+    "related": []
   }
 ]
