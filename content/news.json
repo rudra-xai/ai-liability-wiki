@@ -1248,5 +1248,92 @@
       }
     ],
     "related": []
+  },
+  {
+    "id": "2026-11-02-runway-youtube-dmca-motion-denied",
+    "published": "2026-11-02T06:00:00-05:00",
+    "title": "Judge denies Runway's motion to dismiss YouTube creators' AI-training scraping claims",
+    "summary": "In an opinion filed October 30, Judge Lewis Kaplan of the Southern District of New York denied Runway AI's motion to dismiss a putative class action brought by two YouTube creators. The plaintiffs allege Runway circumvented YouTube's technological protection measures, such as its rolling cipher, IP blocking and session-bound URLs, to scrape their videos for training its video-generation models, in violation of the DMCA's anti-circumvention provision, 17 U.S.C. § 1201(a). The court rejected an argument that the plaintiffs themselves had to put the protection measures in place, finding it plausible that creators authorized YouTube to deploy them. These are allegations; the court ruled only on the pleadings.",
+    "lens": "Anti-circumvention claims carry statutory damages that do not depend on proving copyright infringement, which may matter for how insurers assess training-data exposure for AI developers.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "copyright",
+      "training data"
+    ],
+    "sources": [
+      {
+        "name": "Ace Cam, Inc. v. Runway AI, Inc., No. 26-cv-1362 (S.D.N.Y. Oct. 30, 2026), memorandum opinion (CourtListener)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.658148/gov.uscourts.nysd.658148.61.0.pdf"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-11-02-xai-naacp-clean-air-act-motion-denied",
+    "published": "2026-11-02T06:04:00-05:00",
+    "title": "Federal judge lets NAACP Clean Air Act suit over xAI's Southaven gas turbines proceed",
+    "summary": "On October 30 Judge Debra Brown of the Northern District of Mississippi denied a motion by X.AI Corp. and MZX Tech LLC to dismiss a citizen suit filed by the NAACP and its Mississippi State Conference. The plaintiffs allege the companies built and operated a gas-fired turbine power plant in Southaven without required permits. The court held the plaintiffs have statutory standing, that the turbines are not 'mobile sources' under Mississippi's implementation plan, and that the Clean Air Act's citizen-suit provision is constitutional. The claims, which seek declaratory and injunctive relief and civil penalties, will go forward.",
+    "lens": "Environmental claims tied to AI data-centre power are typically a pollution-liability and general-liability question rather than an AI-specific one, but they show how AI infrastructure creates conventional exposures.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "environment",
+      "data centers"
+    ],
+    "sources": [
+      {
+        "name": "NAACP v. X.AI Corp., No. 3:26-cv-74 (N.D. Miss. Oct. 30, 2026), opinion and order (Earthjustice)",
+        "url": "https://earthjustice.org/document/xai-denied-motion-to-dismiss-pollution-case"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-11-02-drcf-joint-statement-ai-agents-responsibility",
+    "published": "2026-11-02T06:08:00-05:00",
+    "title": "UK regulators say AI agents' autonomy does not reduce deployers' responsibility",
+    "summary": "The CMA, Financial Conduct Authority, Information Commissioner's Office and Ofcom, acting through the Digital Regulation Cooperation Forum, issued a joint statement on personal AI agents, which the CMA added to its AI agents guidance on October 30. The regulators say existing consumer, competition, data protection, financial services and other rules already apply to such agents, and that an agent's autonomy does not reduce the responsibility of the organisations deploying it. They say they will use their powers where they reasonably suspect harmful breaches, and are monitoring the market and sharing intelligence. They also encourage firms to be clear with users about how agents act for them and how to seek redress.",
+    "lens": "A regulatory position that 'the AI did it' is no defence supports treating agent errors as the deploying firm's liability, which bears on E&O, cyber and conduct-risk coverage.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "agents",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "LexisNexis: CMA updates AI agents guidance with DRCF joint statement (30 Oct 2026)",
+        "url": "https://www.lexisnexis.co.uk/legal/news/cma-updates-ai-agents-guidance-with-drcf-joint-statement"
+      },
+      {
+        "name": "Burges Salmon summary of the DRCF statement",
+        "url": "https://www.burges-salmon.com/?p=20230"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-11-02-fcc-uwb-ai-sensing-proposal-comments",
+    "published": "2026-11-02T06:12:00-05:00",
+    "title": "FCC proposes updating ultra-wideband rules and asks whether AI sensing devices need their own class",
+    "summary": "A Federal Register notice published November 2 sets out an FCC proposal to modernize its ultra-wideband device rules, responding to petitions from Bosch and an automotive industry alliance. The commission asks, among other things, whether to create a new device class for AI-based sensing systems and whether agentic or physical AI paired with UWB needs distinct technical or operational limits. Comments are due December 2, 2026 and reply comments January 4, 2027 (ET Docket No. 26-245). This is a proposal only; no rule has been adopted.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "regulation",
+      "physical ai"
+    ],
+    "sources": [
+      {
+        "name": "Federal Register, Doc. 2026-22337 (Nov. 2, 2026)",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-02/html/2026-22337.htm"
+      }
+    ],
+    "related": []
   }
 ]
