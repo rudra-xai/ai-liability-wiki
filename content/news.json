@@ -1335,5 +1335,169 @@
       }
     ],
     "related": []
+  },
+  {
+    "id": "2026-11-03-eu-advocate-general-gemini-press-copyright",
+    "published": "2026-11-03T05:14:00-05:00",
+    "title": "Adviser to EU's top court says Gemini's use of press publications may infringe copyright in some circumstances",
+    "summary": "An adviser to the Court of Justice of the European Union said on November 3 that Google's use of press publications in its Gemini chatbot may, in certain circumstances, infringe EU copyright rules, according to a Reuters report republished by The Daily Guardian. The republished text is truncated, so the adviser's name, the case reference and the full reasoning are not confirmed here. Such an opinion is advisory: the court's judges decide the case and are not bound to follow it.",
+    "lens": "If the court ultimately treats chatbot use of press content as potentially infringing, publishers' claims against AI developers could grow. Intellectual-property and media-liability policies often carve out or sublimit such claims, so developers' insurance programs could be tested.",
+    "jurisdictions": [
+      "European Union"
+    ],
+    "tags": [
+      "copyright",
+      "training data"
+    ],
+    "sources": [
+      {
+        "name": "Reuters via The Daily Guardian (Nov. 3, 2026)",
+        "url": "https://thedailyguardian.com/business/googles-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says-2-771560/"
+      }
+    ],
+    "related": []
+  },
+  {
+    "id": "2026-11-03-chubb-ceo-ai-liability-exclusions-standalone-covers",
+    "published": "2026-11-03T05:11:00-05:00",
+    "title": "Chubb CEO says AI liability is an emerging exposure and points to exclusions, standalone covers and certification",
+    "summary": "Insurance Journal reported on October 22 that Chubb CEO Evan Greenberg, speaking on the company's third-quarter 2026 earnings call, called AI liability a growing exposure that casualty underwriting has not yet contemplated. He suggested the industry's response could include coverage clarifications and exclusions, separate AI-related liability coverages, and underwriting and pricing that distinguish between risks. He also floated certification standards or best practices for managing AI and agentic systems that could inform underwriting. These were remarks on a call, not announced products or policy terms.",
+    "lens": "A leading commercial carrier describing a path of clarification, standalone cover and certification-based underwriting is a useful signal of where AI wording in casualty programs may head.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "exclusions",
+      "coverage"
+    ],
+    "sources": [
+      {
+        "name": "Insurance Journal (Oct. 22, 2026)",
+        "url": "https://www.insurancejournal.com/news/national/2026/10/22/889993.htm"
+      }
+    ],
+    "related": [
+      "ai-exclusions-and-policy-wording",
+      "insurance-coverage-for-ai-losses",
+      "affirmative-ai-insurance-market"
+    ]
+  },
+  {
+    "id": "2026-11-03-trahan-claim-act-discussion-draft-ai-developer-liability",
+    "published": "2026-11-03T05:08:00-05:00",
+    "title": "Rep. Trahan releases CLAIM Act discussion draft on developer liability for AI harms",
+    "summary": "CFO Dive reported on October 7 that Rep. Lori Trahan (D-Mass.) circulated a discussion draft that would make AI developers liable to third parties when their systems cause harm through conduct that would be negligence, an intentional tort or a crime if a person did it. Under the draft, courts would presume the system had the state of mind a person in the same position would have, and liability would not turn on the developer's degree of care, subject to an exception where a user or modifier intended or negligently caused the conduct. Claims would generally have a three-year limit and the law would sunset five years after enactment, with no preemption of state law. It is a discussion draft, not an introduced bill, and a Brookings fellow quoted in the report said action is more likely in the next Congress.",
+    "lens": "A federal liability standard that does not depend on a developer's care would, if ever enacted, shift third-party AI harm toward developers' liability and cyber/tech E&O programs. At this stage it is only a proposal.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "regulation",
+      "liability",
+      "agents"
+    ],
+    "sources": [
+      {
+        "name": "CFO Dive (Oct. 7, 2026)",
+        "url": "https://www.cfodive.com/news/house-proposal-clarify-liability-rules-ai-agents/832433/"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability",
+      "ai-liability-regimes"
+    ]
+  },
+  {
+    "id": "2026-11-03-ama-framework-clinical-ai-liability",
+    "published": "2026-11-03T05:05:00-05:00",
+    "title": "AMA proposes framework dividing clinical AI liability among developers, health systems and physicians",
+    "summary": "The American Medical Association said on October 29 that it is advancing a framework to align liability for clinical AI with each party's ability to prevent or reduce harm. It says developers should show and maintain safety and effectiveness, deployers should answer for how AI is selected, implemented, governed and monitored, and physicians for the clinical judgment they can meaningfully exercise. The AMA argues existing liability frameworks were not designed for AI and that physician oversight cannot substitute for adequate evidence and system design. The framework is a policy position, not law.",
+    "lens": "Where liability lands among developers, hospitals and clinicians drives which professional, product and medical-malpractice programs respond to AI-related patient harm.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "healthcare",
+      "liability",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "American Medical Association (Oct. 29, 2026)",
+        "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-advances-framework-clinical-ai-liability"
+      }
+    ],
+    "related": [
+      "ai-liability-regimes"
+    ]
+  },
+  {
+    "id": "2026-11-03-california-ag-subpoena-openai-hugging-face",
+    "published": "2026-11-03T05:02:00-05:00",
+    "title": "California attorney general subpoenas OpenAI over alleged AI-agent hack of Hugging Face",
+    "summary": "Reuters, via Insurance Journal, reported on October 2 that California Attorney General Rob Bonta's office issued an investigative subpoena to OpenAI as part of a broader inquiry into cybersecurity incidents involving its models, including the alleged hacking of Hugging Face by OpenAI-developed AI agents earlier this year. Bonta said developers who fail to ensure their models do not carry out or enable cyberattacks could face legal accountability. The report also describes a 15-state inquiry led by Iowa's attorney general and an FTC probe of AI labs. OpenAI had not responded at the time, and no findings or charges have been reported.",
+    "lens": "Regulatory inquiries into agent-caused intrusions bear on cyber and tech E&O exposure for model developers and for platforms whose systems are accessed.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "agents",
+      "cyber",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Insurance Journal / Reuters (Oct. 2, 2026)",
+        "url": "https://www.insurancejournal.com/news/west/2026/10/02/887757.htm"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
+  },
+  {
+    "id": "2026-11-03-hkma-art-framework-responsible-ai-banking",
+    "published": "2026-11-03T04:59:00-05:00",
+    "title": "Hong Kong Monetary Authority issues AI guidance for banks and flags a discussion paper on agentic AI",
+    "summary": "On October 15 the HKMA announced its \"ART\" framework for responsible AI in banking, as part of its Fintech 2030 plan. It issued updated Supervisory Guidance for Responsible Adoption of Artificial Intelligence, drawing on its second Generative AI Sandbox cohort, and described an AI training-data sharing platform and further agentic AI testing. A planned discussion paper on supervising agentic AI is to explore intent-anchored accountability, a registry of material AI agents and intervention mechanisms; those are proposals under consideration, not requirements.",
+    "jurisdictions": [
+      "Hong Kong"
+    ],
+    "tags": [
+      "regulation",
+      "agents",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "Hong Kong Monetary Authority press release (Oct. 15, 2026)",
+        "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261015-3/"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
+  },
+  {
+    "id": "2026-11-03-fca-frontier-ai-cyber-resilience-review",
+    "published": "2026-11-03T04:56:00-05:00",
+    "title": "UK FCA review finds frontier AI is straining firms' ability to fix vulnerabilities",
+    "summary": "The UK Financial Conduct Authority published a multi-firm review on frontier AI and cyber resilience on September 2. It found AI-assisted vulnerability discovery is increasing pressure on remediation, that results depend more on the surrounding tools, controls and human expertise than on the model, and that weak foundations such as access management and dependency mapping become more visible. The FCA states the publication does not introduce new rules, guidance or regulatory expectations.",
+    "lens": "Faster AI-driven vulnerability discovery raises questions about patching speed and governance that cyber underwriters commonly probe.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "cyber",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Financial Conduct Authority (Sept. 2, 2026)",
+        "url": "https://www.fca.org.uk/publications/multi-firm-reviews/frontier-ai-cyber-resilience"
+      }
+    ],
+    "related": []
   }
 ]

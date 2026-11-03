@@ -24,14 +24,14 @@ const localDay = (iso, tz) => new Intl.DateTimeFormat('en-CA', { timeZone: tz })
 const FLAGS = {
   'United States': '🇺🇸', Canada: '🇨🇦', Brazil: '🇧🇷', Mexico: '🇲🇽',
   'European Union': '🇪🇺', 'United Kingdom': '🇬🇧', France: '🇫🇷', Germany: '🇩🇪', Italy: '🇮🇹', Ireland: '🇮🇪', Luxembourg: '🇱🇺', Hungary: '🇭🇺',
-  Australia: '🇦🇺', India: '🇮🇳', Singapore: '🇸🇬', Japan: '🇯🇵', China: '🇨🇳', 'South Korea': '🇰🇷', Thailand: '🇹🇭',
+  Australia: '🇦🇺', India: '🇮🇳', Singapore: '🇸🇬', 'Hong Kong': '🇭🇰', Japan: '🇯🇵', China: '🇨🇳', 'South Korea': '🇰🇷', Thailand: '🇹🇭',
   Nigeria: '🇳🇬', 'South Africa': '🇿🇦', International: '🌐',
 };
 const REGIONS = {
   'United States': ['United States'],
   Americas: ['Canada', 'Brazil', 'Mexico'],
   Europe: ['European Union', 'United Kingdom', 'France', 'Germany', 'Italy', 'Ireland', 'Luxembourg', 'Hungary'],
-  'Asia-Pacific': ['Australia', 'India', 'Singapore', 'Japan', 'China', 'South Korea', 'Thailand'],
+  'Asia-Pacific': ['Australia', 'India', 'Singapore', 'Hong Kong', 'Japan', 'China', 'South Korea', 'Thailand'],
   'Africa & Middle East': ['Nigeria', 'South Africa'],
   International: ['International'],
 };
