@@ -1499,5 +1499,75 @@
       }
     ],
     "related": []
+  },
+  {
+    "id": "2026-11-04-tenth-circuit-flux-drive-ai-legal-fees",
+    "published": "2026-11-04T05:20:00-05:00",
+    "title": "Tenth Circuit says a law firm's use of AI does not by itself justify cutting its fee award",
+    "summary": "The U.S. Court of Appeals for the 10th Circuit ruled on November 2 in Flux Drive Inc. v. Qiang Rong (No. 25-1308) that a Colorado federal court's award of roughly $115,000 in legal fees to the defendants' counsel should stand, according to a JD Journal report. The losing plaintiff had argued the fees should be reduced because the defense firm used AI. The panel, in an opinion by Judge Carolyn McHugh, reportedly found the plaintiff had not shown that AI made the billed hours unreasonable. The underlying case was a trade secrets suit that the district court dismissed.",
+    "lens": "Fee disputes over AI-assisted work bear on how law firms bill and on how professional-liability and fee-related claims might be assessed. The ruling suggests challengers will need evidence of overbilling rather than the mere fact of AI use.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "lawyers",
+      "litigation"
+    ],
+    "sources": [
+      {
+        "name": "JD Journal (Nov. 3, 2026)",
+        "url": "https://www.jdjournal.com/2026/11/03/court-ruling-ai-law-firm-legal-fees/"
+      }
+    ],
+    "related": [
+      "lawyers-professional-liability-and-ai"
+    ]
+  },
+  {
+    "id": "2026-11-04-uk-mps-peers-chatbot-safety-testing-observer",
+    "published": "2026-11-04T05:24:00-05:00",
+    "title": "UK MPs and peers call for chatbots to be safety-tested before release, like medicines",
+    "summary": "Resultsense, summarizing an Observer report of November 3, says UK parliamentarians are pressing for chatbots to pass safety checks before launch, as medicines and household goods do. Crossbench peer Beeban Kidron and Labour MPs Jess Asato and Emily Darlington were quoted; Darlington said she would back banning free conversational chatbots for under-16s until regulation exists. The Observer's investigation also reported that at most 60 people at OpenAI review dangerous ChatGPT conversations, a figure OpenAI reportedly did not address. These are calls from legislators; no bill or timetable has been set.",
+    "lens": "Pre-release testing requirements, if adopted, could become a benchmark insurers use when underwriting chatbot developers and judging whether safeguards were reasonable.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "chatbots",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing The Observer (Nov. 4, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-04-chatbots-safety-testing-mps-observer-openai/"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
+  },
+  {
+    "id": "2026-11-04-uk-parliamentarians-ai-chatbot-toys-letter",
+    "published": "2026-11-04T05:28:00-05:00",
+    "title": "UK parliamentarians ask Amazon and eBay to delist AI chatbot toys",
+    "summary": "Resultsense, citing Sky News, reports that a group of MPs and peers wrote on November 3 to Amazon and eBay asking them to stop selling toys with built-in chatbots until independent testing covers psychological, developmental and privacy risks. They also asked the Business Secretary to bar sales to under-16s under existing consumer-protection powers and to create a dedicated commodity code. Amazon reportedly said it is removing one product while it investigates; eBay said it works closely with regulators; the government said it is urgently investigating. The letter is a request, not a legal measure.",
+    "lens": "Chatbots embedded in physical consumer products blur software and product liability, which may raise questions about product-liability and recall cover for toy makers and retailers.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "chatbots",
+      "product liability",
+      "regulation"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing Sky News (Nov. 4, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-04-ai-toys-mps-ban-letter-amazon-ebay/"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
   }
 ]
