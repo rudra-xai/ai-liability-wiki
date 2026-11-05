@@ -175,5 +175,14 @@
       "name": "Open Class Actions",
       "url": "https://openclassactions.com/news/google-contact-center-ai-wiretap-lawsuit-dismissed.php"
     }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Northern Ireland: first EU AI Act transparency duties for embedded products apply",
+    "description": "Under UK government guidance, transparency duties phase in from this date for AI in physical products sold in Northern Ireland under the Windsor Framework.",
+    "source": {
+      "name": "Resultsense, citing BBC",
+      "url": "https://www.resultsense.com/news/2026-11-05-eu-ai-act-northern-ireland-embedded-products/"
+    }
   }
 ]

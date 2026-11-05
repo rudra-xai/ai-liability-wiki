@@ -1569,5 +1569,114 @@
     "related": [
       "chatbot-product-liability"
     ]
+  },
+  {
+    "id": "2026-11-05-eu-ai-act-northern-ireland-embedded-products",
+    "published": "2026-11-05T05:10:00-05:00",
+    "title": "EU AI Act to apply in Northern Ireland, but only to AI embedded in physical products",
+    "summary": "Resultsense, summarising BBC reporting, says the UK government announced on November 4 that parts of the EU AI Act will apply in Northern Ireland under the Windsor Framework. The rules would cover AI built into physical goods sold there, such as smart speakers and watches, and not AI software that businesses use internally. Cabinet Office minister Hamish Falconer said prohibited products such as an AI toy pushing children toward risky behaviour are currently relatively rare. The published guidance phases in duties from November 10, 2026 for transparency, December 2, 2027 for Annex III high-risk systems and August 2, 2028 for Annex I.",
+    "lens": "Manufacturers selling connected products into Northern Ireland may face EU-style conformity duties that differ from the rest of the UK, which could affect product-liability and recall underwriting.",
+    "jurisdictions": [
+      "United Kingdom",
+      "European Union"
+    ],
+    "tags": [
+      "regulation",
+      "product liability"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing BBC (Nov. 5, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-05-eu-ai-act-northern-ireland-embedded-products/"
+      }
+    ],
+    "related": [
+      "eu-ai-act"
+    ]
+  },
+  {
+    "id": "2026-11-05-home-office-police-facial-recognition-law",
+    "published": "2026-11-05T05:14:00-05:00",
+    "title": "Home Office plans statute and new regulator for police facial recognition",
+    "summary": "Resultsense reports, drawing on a GOV.UK press notice and the government's consultation response, that the Home Office announced on November 4 plans to put police live facial recognition on a statutory footing. A new independent regulator could in extreme cases seek an injunction to stop a force using the technology. The planned law would require deployments to be intelligence led and proportionate, mandate independent bias testing and bind forces to a legal code of practice. These are intentions with no timetable, and a separate code for private businesses such as shops is also planned.",
+    "lens": "Statutory duties and injunction powers could create new regulatory and civil-claim exposure for police bodies and private deployers, relevant to public-sector liability and professional indemnity.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "regulation",
+      "privacy"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing Home Office (Nov. 5, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-05-home-office-facial-recognition-watchdog-law/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-zurich-uk-record-fraud-ai-evidence",
+    "published": "2026-11-05T05:18:00-05:00",
+    "title": "Zurich UK reports record £109m of detected claims fraud, citing AI on both sides",
+    "summary": "Resultsense, citing Insurance Business, reports that Zurich UK uncovered £109.3 million of fraudulent claims over 12 months, across 4,359 claims. Casualty accounted for the largest share at £61.6 million. About a fifth of cases, 860 claims worth £17.9 million, were flagged by Zurich's connected analytics built on Quantexa tools. Zurich's fraud chief named AI-generated evidence as one tactic among several, while an industry fraud bureau official called fraud increasingly AI-driven without giving a figure for AI-related cases.",
+    "lens": "Shows insurers using AI for detection while facing AI-generated evidence, a claims-handling and loss-ratio issue.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "insurance",
+      "fraud"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing Insurance Business (Nov. 5, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-05-zurich-uk-record-fraud-109m-ai/"
+      }
+    ],
+    "related": [
+      "ai-in-insurance-underwriting-and-claims"
+    ]
+  },
+  {
+    "id": "2026-11-05-byrom-sycophantic-ai-family-courts",
+    "published": "2026-11-05T05:22:00-05:00",
+    "title": "Paper warns people-pleasing chatbots may mislead and embolden family-court litigants",
+    "summary": "Resultsense, citing the Law Society Gazette, reports that Dr Natalie Byrom's paper for the Nuffield Family Justice Observatory warns that sycophantic chatbots can mislead unrepresented parties in family courts. Byrom argues the tools may encourage vexatious litigants and domestic abusers. Her 26 recommendations urge the Ministry of Justice and HMCTS to assess lock-in and sovereignty risks and build in-house capability. The paper states it is not an argument against digital or AI-mediated justice.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "litigation",
+      "chatbots"
+    ],
+    "sources": [
+      {
+        "name": "Resultsense, citing Law Society Gazette (Nov. 5, 2026)",
+        "url": "https://www.resultsense.com/news/2026-11-05-byrom-delegated-by-default-family-courts-ai/"
+      }
+    ]
+  },
+  {
+    "id": "2026-11-05-progressive-ai-agents-shopping-auto-insurance",
+    "published": "2026-11-05T05:26:00-05:00",
+    "title": "Progressive prepares for AI agents that shop for auto insurance",
+    "summary": "CollisionWeek reports that Progressive executives said at the company's third-quarter investor event on November 3 that they are testing agentic AI and preparing for AI agents that shop for auto insurance on consumers' behalf. They expect this to become a significant sales channel. The remarks came as rival insurers' rate cuts and advertising slowed Progressive's growth; the filing showed net premiums written up 4% to $22.301 billion.",
+    "lens": "Agent-mediated purchasing raises open questions about disclosure, misrepresentation and who bears responsibility when an AI agent buys cover.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "insurance",
+      "agents"
+    ],
+    "sources": [
+      {
+        "name": "CollisionWeek (Nov. 4, 2026)",
+        "url": "https://collisionweek.com/2026/11/04/progressive-prepares-ai-agent-shopping-competition-slows-growth/"
+      }
+    ],
+    "related": [
+      "ai-agents-and-liability"
+    ]
   }
 ]
