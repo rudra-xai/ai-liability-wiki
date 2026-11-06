@@ -1678,5 +1678,98 @@
     "related": [
       "ai-agents-and-liability"
     ]
+  },
+  {
+    "id": "2026-11-06-doe-v-google-gemini-chromebook-suit",
+    "published": "2026-11-06T05:30:00-05:00",
+    "title": "Parents sue Google, alleging Gemini on a school Chromebook contributed to their 13-year-old's mental-health crisis",
+    "summary": "The parents of a 13-year-old girl, identified as Doe, filed suit against Google LLC and Alphabet Inc. in Santa Clara County Superior Court on November 2, according to a write-up of the complaint by FourWeekMBA that cites The Hill's report of November 5. The complaint alleges that chats with Gemini on a school-issued Chromebook contributed to a severe mental-health crisis in which she planned to end her life. Claims reportedly include strict liability for design defect and failure to warn, negligence, fraudulent concealment, and violation of California's companion chatbot law, SB 243. Plaintiffs seek damages, including punitive damages, and injunctive relief. These are allegations only; Google said it is reviewing the claims, and no court has ruled.",
+    "lens": "The suit pairs product-liability theories with a new chatbot statute, and the school-device setting adds an education-technology angle. That may bear on how general liability and tech E&O policies respond to chatbot injury claims.",
+    "jurisdictions": [
+      "United States"
+    ],
+    "tags": [
+      "chatbots",
+      "product liability",
+      "children"
+    ],
+    "sources": [
+      {
+        "name": "FourWeekMBA (citing the complaint and The Hill)",
+        "url": "https://fourweekmba.com/ai-google-sued-over-gemini-chats-on-a-13-year-olds-chromebook/"
+      }
+    ],
+    "related": [
+      "chatbot-product-liability"
+    ]
+  },
+  {
+    "id": "2026-11-06-tokio-marine-hcc-adrian-flux-humanoid-robot-policy",
+    "published": "2026-11-06T05:34:00-05:00",
+    "title": "Tokio Marine HCC and Adrian Flux develop UK household insurance for domestic humanoid robots",
+    "summary": "Reinsurance News reported on October 30 that Tokio Marine HCC International and UK broker Adrian Flux have developed a specialist policy for domestic humanoid robots. The companies say it combines protection for the robot with cover for the home where it operates, and that they believe it is the first such product in the UK and worldwide. Adrian Flux said the aim is to clarify who is responsible if something goes wrong, and that the policy will be updated as the technology develops. The report gives no premiums, limits or exclusions, and the companies expect such robots in UK homes from 2027.",
+    "lens": "Household robots blur the line between product, property and liability exposure; early policy design may show how insurers allocate fault between manufacturers, owners and AI software.",
+    "jurisdictions": [
+      "United Kingdom"
+    ],
+    "tags": [
+      "insurance",
+      "product liability"
+    ],
+    "sources": [
+      {
+        "name": "Reinsurance News (Oct. 30, 2026)",
+        "url": "https://www.reinsurancene.ws/tokio-marine-hcc-international-and-adrian-flux-develop-specialist-insurance-for-domestic-humanoid-robots/"
+      }
+    ],
+    "related": [
+      "affirmative-ai-insurance-market"
+    ]
+  },
+  {
+    "id": "2026-11-06-singapore-reinsurers-association-ai-handbook",
+    "published": "2026-11-06T05:38:00-05:00",
+    "title": "Singapore Reinsurers' Association launches AI handbook for the reinsurance sector",
+    "summary": "The Singapore Reinsurers' Association launched its Reinsurers' Artificial Intelligence Handbook on November 2 at the 22nd Singapore International Reinsurance Conference, Reinsurance News reported. A working group from the association's technical and legal and compliance subcommittees prepared it to help reinsurers assess AI-related risks in underwriting, claims and risk management. It sets out a five-stage assessment cycle covering data, model and decision reliability, third-party dependencies, underwriting, claims and portfolio concentration, and complements the MindForge AI risk management toolkit. The association's chair described it as practical, principles-based guidance; it is industry guidance rather than regulation.",
+    "lens": "Portfolio concentration and third-party dependency are the same accumulation themes insurers raise about AI exposure in their own books.",
+    "jurisdictions": [
+      "Singapore"
+    ],
+    "tags": [
+      "insurance",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "Reinsurance News (Nov. 2, 2026)",
+        "url": "https://www.reinsurancene.ws/sra-launches-ai-handbook-to-guide-reinsurance-sector/"
+      }
+    ],
+    "related": [
+      "ai-in-insurance-underwriting-and-claims"
+    ]
+  },
+  {
+    "id": "2026-11-06-oxbow-ai-in-claims-report",
+    "published": "2026-11-06T05:42:00-05:00",
+    "title": "Oxbow Partners report says insurers could use AI-analysed claims data to inform underwriting and pricing",
+    "summary": "Consultancy Oxbow Partners published a report titled The Future of AI in Claims, covered by Reinsurance News on November 5. It argues that AI's value in claims may go beyond cost savings, because claims records show how underwriting decisions performed and could inform pricing and portfolio management. The report says fragmented systems and unstructured documents have limited the use of that data, and that poor data quality could worsen existing problems. It expects claims professionals to keep handling specialist and judgment-heavy work while AI takes on repetitive tasks.",
+    "lens": "Feeding claims outcomes back into underwriting raises questions about explainability and governance of insurer AI models.",
+    "jurisdictions": [
+      "International"
+    ],
+    "tags": [
+      "insurance",
+      "governance"
+    ],
+    "sources": [
+      {
+        "name": "Reinsurance News (Nov. 5, 2026)",
+        "url": "https://www.reinsurancene.ws/oxbow-partners-report-finds-ai-could-improve-underwriting-and-pricing-through-claims-data/"
+      }
+    ],
+    "related": [
+      "ai-in-insurance-underwriting-and-claims"
+    ]
   }
 ]
